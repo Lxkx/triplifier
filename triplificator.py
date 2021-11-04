@@ -1,23 +1,37 @@
-from os import sep
-import pandas as pd
+import configparser
+import csv
 
 class Triplificator:
 
-    def __init__(self, csvPath, rowNumTitle, rowNumFirst, rowNumOne, separator=','):
+    def __init__(self, csvPath, rowNumTitle, rowNumFirst, rowNumLast, separator=','):
         self.csvPath = csvPath
         self.rowNumTitle = rowNumTitle
         self.rowNumFirst = rowNumFirst
-        self.rowNumOne = rowNumOne
+        self.rowNumLast = rowNumLast
         self.separator = separator
 
 
     def openCsv(self):
-        self.csv = pd.read_csv(self.csvPath, sep=self.separator)
+        with open(self.csvPath, 'r') as csvFile:
+            csvReader = csv.reader(csvFile)
+            for l in csvReader:
+                #print(l)
+                pass
 
+    def openConfig(self):
+        config = configparser.ConfigParser()
+        print(config.read("config.ini"))
+        print(config.sections())
+        print(config["USER"]["name"])
 
 
 if __name__ == "__main__":
-    Triplificator("e")
-    print("oui")
-    print(pd.read_csv("data/test2.csv", sep=";"))
+    chemin = "data/test2.csv"
+    numTitre = 0
+    numPremier = 1
+    numDernier = 10
+    a = Triplificator(chemin, 0, 1, 100)
+    a.openCsv()
+    a.openConfig()
+    print("afafa")
 
