@@ -1,6 +1,8 @@
 import configparser
 import csv
+import pydash
 import re
+import difflib
 
 class Triplificator:
 
@@ -8,55 +10,46 @@ class Triplificator:
 
         #Initialisation of the config file reading
         config = configparser.ConfigParser()
-        config.read("config.ini")
+        config.read("config.ini") #the configParser strip the spaces before and after the value
 
-        #Initialisation of the csv config informations from the config file
-        self.configRowNumTitle = config["CSV"]["titleRow"]
-        self.configRowNumFirst = config["CSV"]["firstDataRow"]
-        self.configRowNumLast = config["CSV"]["lastDataRow"]
-        self.configSeparator = config["CSV"]["separator"]
-
-        #Initialisation of the turtle config informations from the config file
-        self.configDataPrefixIRI = config["TURTLE"]["dataPrefixIRI"]
-        self.configPredicatPrefixIRI = config["TURTLE"]["predicatPrefixIRI"]
-
+        
         #Setting up the object variables regarding the config file or the user input
 
         #CSV
         self.csvPath = csvPath
-
-        if (self.configRowNumTitle != rowNumTitle):
+        #Set up the object variables but not the coherence (like if title not first non empty row) and the indexes
+        if (rowNumTitle is None):
+            self.rowNumTitle = int(config["CSV"]["titleRow"])
+        else:
             self.rowNumTitle = rowNumTitle
-        else:
-            self.rowNumTitle = self.configRowNumTitle
 
-        if (self.configRowNumFirst != rowNumFirst):
+        if (rowNumFirst is None):
+            self.rowNumFirst = config["CSV"]["firstDataRow"]
+        else:
             self.rowNumFirst = rowNumFirst
-        else:
-            self.rowNumFirst = self.configRowNumFirst
 
-        if (self.configRowNumLast != rowNumLast):
+        if (rowNumLast is None):
+            self.rowNumLast = config["CSV"]["lastDataRow"]
+        else:
             self.rowNumLast = rowNumLast
-        else:
-            self.rowNumLast = self.configRowNumLast
 
-        if (self.configSeparator != separator):
-            self.separator = separator
+        if (separator is None):
+            self.separator = config["CSV"]["separator"]
         else:
-            self.separator = self.configSeparator
+            self.separator = separator
 
         #TURTLE
-        if (self.configDataPrefixIRI != dataPrefixIRI):   
-            self.dataPrefixIRI = dataPrefixIRI
+        if (dataPrefixIRI is None):
+            self.dataPrefixIRI = config["TURTLE"]["dataPrefixIRI"]
         else:
-            self.dataPrefixIRI = self.configDataPrefixIRI
+            self.dataPrefixIRI = dataPrefixIRI
 
         self.dataPrefix = re.findall(r'^[a-z]*:', self.dataPrefixIRI)[0]
 
-        if (self.configPredicatPrefixIRI != predicatPrefixIRI):
-            self.predicatPrefixIRI = predicatPrefixIRI
+        if (predicatPrefixIRI is None):
+            self.predicatPrefixIRI = config["TURTLE"]["predicatPrefixIRI"]
         else:
-            self.predicatPrefixIRI = self.configPredicatPrefixIRI
+            self.predicatPrefixIRI = predicatPrefixIRI
 
         self.predicatPrefix = re.findall(r'^[a-z]*:', self.predicatPrefixIRI)[0]
 
@@ -71,53 +64,57 @@ class Triplificator:
         print(self.predicatPrefix)
 
     def checkValues(self): #voir si les valeurs rentrees par l'uti sont ok (par ex titre ligne 12 mais au final pas premiere ligne)
-                           #et rewrite les bonnes en fonction du csv si besoin (par ex par defaut 0 titre mais possible 4)
+                           #et rewrite les bonnes en fonction du csv si besoin (par ex par defaut 0 titre mais possible qu'a la ligne 4)
         pass
 
 
     def writeFile(self):
+        #here we assume that we have all the good configuration variables in our object, and rows numbers as indexes
 
         #write in output.ttl file
         with open("output.ttl", "w") as turtleFile:
             #first two rows are prefixes and the corresponding IRIs
             turtleFile.write("@prefix "+self.dataPrefixIRI+" .\n")
-            turtleFile.write("@prefix "+self.predicatPrefixIRI+" .\n\n\n")
+            turtleFile.write("@prefix "+self.predicatPrefixIRI+" .\n\n")
 
             #open the csv to write info in ttl
             lineIndex = self.rowNumFirst
             with open(self.csvPath, 'r') as csvFile:
-
+                csvReader = csv.reader(csvFile, delimiter=self.separator) #csv.Reader object, not subscriptable
+                csvReader = list(csvReader) #list object, subscriptable
+                # print(csvReader)
+                #select the list of titles (titles = potential csv column names)
                 if (self.rowNumTitle >= 0):
-                    #DictReader cannot work without titles (= column names)
-                    csvReader = csv.DictReader(csvFile)
-                    for row in csvReader: #each element is a dict {'title1':value, 'title2':value, ...}
+                    self.listTitles = [row for idx, row in enumerate(csvReader) if idx == self.rowNumTitle][0]
+                    self.listTitles = list(map(pydash.camel_case, self.listTitles))
+
+                    self.listData = [row for idx, row in enumerate(csvReader) if idx in range(self.rowNumFirst, self.rowNumLast)]
+                    for row in self.listData:
                         turtleFile.write(self.dataPrefix + str(lineIndex) + "\t\t")
-                        print(row)
-                        for key, value in row.items():
+                        dictRow = dict(zip(self.listTitles, row))
+                        for key, value in dictRow.items():
                             turtleFile.write(self.predicatPrefix+str(key) + "\t\t" + "\""+value+"\"" + " ;\n\t\t")
                         turtleFile.write(".\n")
-                            
-
                         lineIndex += 1
 
                 else: #if not title
                     pass
 
-                # csvReader=[row for idx, row in enumerate(csvReader) if idx in range(10)]
-                # for row in csvReader:
-                #     print(row)
+                
                     
 
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":    
     chemin = "data/test4.csv"
-    ligneTitre = 0 #faire en sorte d'avoir -1 si pas de titre, 0 si utilisateur rentre rien
-    lignePremier = 1 #-1 si l'utilisateur rentre rien
-    ligneDernier = 420 #-1 si l'utilisateur rentre rien
-    sep = "," # ',' si l'utilisateur rentre rien
-    dataPrefIRI = "d: <http://ex.org/data/>" #-1 si l'utilisateur rentre rien
-    predicatPrefIRI = "p: <http://ex.org/pred#>" #-1 si l'utilisateur rentre rien
+    #None if the user does not enter anything for the below variables
+    ligneTitre = None
+    lignePremier = 1
+    ligneDernier = 5
+    sep = ","
+    dataPrefIRI = None
+    predicatPrefIRI = "p: <http://ex.org/pred#>"
 
     a = Triplificator(chemin, ligneTitre, lignePremier, ligneDernier, sep, dataPrefIRI, predicatPrefIRI)
     a.writeFile()
+    
