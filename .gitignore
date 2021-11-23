@@ -1,3 +1,4 @@
 *.pdf
 *.ttl
 triplificator_env/
+django_test/
