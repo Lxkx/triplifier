@@ -5,7 +5,7 @@ import re
 
 class Triplificator:
 
-    def __init__(self, csvPath, rowNumTitle, rowNumFirst, rowNumLast, separator, dataPrefixIRI, predicatPrefixIRI):
+    def __init__(self, csvPath, rowNumTitle, rowNumFirst, rowNumLast, separator, dataPrefixIRI, predicatPrefixIRI, isTitle):
 
         #Initialisation of the config file reading
         config = configparser.ConfigParser()
@@ -15,6 +15,9 @@ class Triplificator:
 
         #CSV
         self.csvPath = csvPath
+
+        #isTitle boolean
+        self.isTitle = isTitle
         
         #Set up the object variables but not the coherence (like if title not first non empty row) and the indexes
         if (rowNumTitle is None):
@@ -117,9 +120,12 @@ class Triplificator:
             with open(self.csvPath, 'r') as csvFile:
                 csvReader = csv.reader(csvFile, delimiter=self.separator) #object: csv.Reader -> not subscriptable
                 csvReader = list(csvReader) #object: list -> subscriptable
-
+                print(csvReader)
+                print("IS THERE A TITLE", self.isTitle)
+                print("IS THERE A TITLE", type(self.isTitle))
                 #select the list of titles (titles = potential csv column names)
-                if (self.rowNumTitle >= 0):
+                if (self.isTitle):
+                    print("YES TITLE")
                     self.listTitles = [row for idx, row in enumerate(csvReader) if idx == self.rowNumTitle][0]
                     self.listTitles = list(map(pydash.camel_case, self.listTitles))
 
@@ -133,7 +139,20 @@ class Triplificator:
                         lineIndex += 1
 
                 else: #if no titles
-                    pass
+                    print("NO TITLE")
+                    self.nbCol = len(csvReader[self.rowNumTitle])
+                    self.listTitles = ["attribute"+str(i+1) for i in range(self.nbCol)]
+                    print(self.nbCol)
+                    print(self.listTitles)
+
+                    self.listData = [row for idx, row in enumerate(csvReader) if idx in range(self.rowNumTitle, self.rowNumLast+1)]
+                    for row in self.listData:
+                        turtleFile.write(self.dataPrefix + str(lineIndex+1) + "\t\t")
+                        dictRow = dict(zip(self.listTitles, row))
+                        for key, value in dictRow.items():
+                            turtleFile.write(self.predicatPrefix+str(key) + "\t\t" + "\""+value+"\"" + " ;\n\t\t")
+                        turtleFile.write(".\n")
+                        lineIndex += 1
 
                 
                     
@@ -152,6 +171,6 @@ if __name__ == "__main__":
     predicatPrefIRI = "pp: <www.jeanvaljean.com>"
     #We assume that we have logical variables here, like rowNumTitle < rowFirstData < rowLastData etc.
     #globally things that can be handled using a web script such as JS, Django does that also
-    a = Triplificator(chemin, ligneTitre, lignePremier, ligneDernier, sep, dataPrefIRI, predicatPrefIRI)
+    a = Triplificator(chemin, ligneTitre, lignePremier, ligneDernier, sep, dataPrefIRI, predicatPrefIRI, True)
     a.writeFile()
     

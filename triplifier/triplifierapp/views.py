@@ -30,14 +30,14 @@ def triplifier(request):
             form2 = convertForm(request.POST)
             if form2.is_valid():
                 print("POST REQUEST")
-                print(form2.cleaned_data.get("separator"))
+                print(form2.cleaned_data.get("title"))
                 print(form2.cleaned_data.get("titleRow"))
-                print(request.POST.get("titleRow"))
+                print(form2.cleaned_data.get("fileToConvert"))
                 print(request.POST.get("newFileName"))
                 trpObj = Triplificator("tpData/csv/"+str(form2.cleaned_data.get("fileToConvert"))+".csv"
                 , form2.cleaned_data.get("titleRow"), form2.cleaned_data.get("firstDataRow")
                 , form2.cleaned_data.get("lastDataRow"), form2.cleaned_data.get("separator")
-                , form2.cleaned_data.get("prefixData"), form2.cleaned_data.get("predicatData"))
+                , form2.cleaned_data.get("prefixData"), form2.cleaned_data.get("predicatData"), form2.cleaned_data.get("title"))
                 trpObj.writeFile("tpData/ttl/"+request.POST.get("newFileName")+".ttl")
 
                 ttlObj = ttlModel()

@@ -60,6 +60,13 @@ class convertForm(forms.Form):
 
     def clean_fileToConvert(self):
         return self.cleaned_data.get("fileToConvert")
+    
+    def clean_title(self):
+        title = self.cleaned_data.get("title")
+        if (title == "select1"):
+            return True
+        else:
+            return False
 
     #best way to handle the form
     def clean_separator(self): #when empty in form, here not None
@@ -75,10 +82,14 @@ class convertForm(forms.Form):
 
     def clean_prefixData(self):
         prefixData = self.cleaned_data.get("prefixData")
-        if (prefixData!=""):
+        if (prefixData != ""):
             X = re.search(r'^[a-zA-Z]*: ', prefixData)
             if (X==None):
                 raise forms.ValidationError("Data prefix invalid")
+            else:
+                return prefixData
+        else:
+            return None
 
     def clean_predicatData(self):
         predicatData = self.cleaned_data.get("predicatData")
@@ -86,6 +97,10 @@ class convertForm(forms.Form):
             X = re.search(r'^[a-zA-Z]*: ', predicatData)
             if (X==None):
                 raise forms.ValidationError("Predicat prefix invalid")
+            else:
+                return predicatData
+        else:
+            return None
 
     def clean_newFileName(self):
         newFileName = self.cleaned_data.get("newFileName")
@@ -93,6 +108,10 @@ class convertForm(forms.Form):
             X = re.search(r'^[a-zA-Z0-9]', newFileName)
             if (X==None):
                 raise forms.ValidationError("Put a simple name")
+            else:
+                return newFileName
+        else:
+            return None
 
 
 
