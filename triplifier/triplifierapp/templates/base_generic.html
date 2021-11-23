@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TRIPLIFIER</title>
+  <meta charset="utf-8">
+  <!-- Add additional CSS in static file -->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+
+  <div class="bigDiv">
+
+    <div class="title">TRIPLIFIER</div>
+
+    <div class="content">
+
+      <div class="div1">
+        <p class="div1Title">UPLOAD A CSV</p>
+        {% block content %}
+        {% endblock %}
+        <p class="div1Title2">YOUR CSV FILES</p>
+        {% block csvlist %}
+        {% endblock %}
+      </div>
+      
+      <div class="div2">
+        <p class="div2Title">CONVERSION</p>
+        {% block convert %}
+        {% endblock %}
+      </div>
+
+      <div class="div3">
+        <p class="div3Title">YOUR TTL FILES</p>
+        {% block turtle %}
+        {% endblock %}
+      </div>
+
+    </div>
+    
+  </div>
+</body>
+</html>

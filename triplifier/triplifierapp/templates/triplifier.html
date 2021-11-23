@@ -1,0 +1,59 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+{% load crispy_forms_tags %}
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" name="uploadBut" class="button">Upload CSV</button>
+</form>
+{% endblock %}
+
+{% block csvlist %}
+
+{% if csvFiles %}
+    <ul>
+        {% for csvFile in csvFiles %}
+        <li>
+            <div class="csvFileTitle">{{ csvFile.csvFileName }}
+            {% load static %}
+            <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a></div>
+        </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>There are no csv files.</p>
+{% endif %} 
+
+{% endblock %}
+
+
+
+{% block convert %}
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ formConvert|crispy }}
+    <button type="submit" name="convertBut" class="button">Convert CSV -> TTL</button>
+</form>
+
+{% endblock %}
+
+
+{% block turtle %}
+
+{% if ttlFiles %}
+    <ul>
+        {% for ttlFile in ttlFiles %}
+        <li>
+            <div class="ttlFileTitle">{{ ttlFile.ttlFileName }}
+                {% load static %}
+                <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a></div>
+        </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>There are no ttl files.</p>
+{% endif %} 
+
+{% endblock %}
