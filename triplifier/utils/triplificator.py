@@ -149,7 +149,6 @@ class Triplificator:
                     self.listTitles = ["attribute"+str(i+1) for i in range(self.nbCol)]
                     print(self.rowNumTitle)
                     print(self.rowNumFirst)
-                    print(self.rowNumLast)
 
                     self.listData = [row for idx, row in enumerate(csvReader) if idx in range(self.rowNumFirst, self.rowNumLast+1)]
                     for row in self.listData:
