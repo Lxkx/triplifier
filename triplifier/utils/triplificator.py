@@ -79,6 +79,7 @@ class Triplificator:
             csvReader = csv.reader(csvFile, delimiter=self.separator) #object: csv.Reader -> not subscriptable
             csvReader = list(csvReader) #object: list -> subscriptable
 
+
             if (self.rowNumTitle == "FirstRow"):
                 #check for first non empty list
                 self.rowNumTitle = next(idx for idx, row in enumerate(csvReader) if row)
@@ -87,8 +88,11 @@ class Triplificator:
                 self.rowNumTitle = self.rowNumTitle - 1
             
             if (self.rowNumFirst == "AfterTitle"):
-                #check for first non empty list after title
-                self.rowNumFirst = next(idx for idx, row in enumerate(csvReader) if row and idx > self.rowNumTitle)
+                if (not(self.isTitle)):
+                    self.rowNumFirst = self.rowNumTitle
+                else:
+                    #check for first non empty list after title
+                    self.rowNumFirst = next(idx for idx, row in enumerate(csvReader) if row and idx > self.rowNumTitle)
             else:
                 self.rowNumFirst = self.rowNumFirst - 1
 
@@ -97,6 +101,7 @@ class Triplificator:
                 self.rowNumLast = [idx for idx, row in enumerate(csvReader) if row][-1]
             else:
                 self.rowNumLast = self.rowNumLast - 1
+
 
             print("Row num title after coherence treatment "+str(self.rowNumTitle))
             print("Row first data after coherence treatment "+str(self.rowNumFirst))
@@ -142,10 +147,11 @@ class Triplificator:
                     print("NO TITLE")
                     self.nbCol = len(csvReader[self.rowNumTitle])
                     self.listTitles = ["attribute"+str(i+1) for i in range(self.nbCol)]
-                    print(self.nbCol)
-                    print(self.listTitles)
+                    print(self.rowNumTitle)
+                    print(self.rowNumFirst)
+                    print(self.rowNumLast)
 
-                    self.listData = [row for idx, row in enumerate(csvReader) if idx in range(self.rowNumTitle, self.rowNumLast+1)]
+                    self.listData = [row for idx, row in enumerate(csvReader) if idx in range(self.rowNumFirst, self.rowNumLast+1)]
                     for row in self.listData:
                         turtleFile.write(self.dataPrefix + str(lineIndex+1) + "\t\t")
                         dictRow = dict(zip(self.listTitles, row))
