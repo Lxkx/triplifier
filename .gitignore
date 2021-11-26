@@ -1,6 +1,5 @@
 *.pdf
 *.ttl
 triplificator_env/
-django_test/
 data/
 .DS_Store
