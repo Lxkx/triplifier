@@ -5,6 +5,7 @@ from .models import csvModel, ttlModel
 from utils.triplificator import Triplificator
 from django.core.files import File
 import os
+from django.contrib import messages
 
 # Create your views here.
 
@@ -24,7 +25,7 @@ def triplifier(request):
                     document.csvFileName = str(request.FILES["csvFile"]).replace(".csv","")
 
                 if (document.csvFileName in list(csvModel.objects.all().values_list('csvFileName',flat=True))):
-                    print("FILE ALREADY EXISTS")
+                    messages.add_message(request, messages.ERROR, 'File name already exists !')
                     return redirect('/')
 
                 document.save()
