@@ -16,7 +16,7 @@ class uploadCsvForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super(uploadCsvForm, self).__init__(*args, **kwargs)
         self.fields['csvFileName'].required = False
-        
+
 
 class convertForm(forms.Form):
     
@@ -36,7 +36,7 @@ class convertForm(forms.Form):
     prefixData = forms.CharField(max_length=100, required=False, label="Data prefix")
     predicatData = forms.CharField(max_length=100, required=False, label="Predicat prefix")
 
-    newFileName = forms.CharField(max_length=30, label="TTL file name")
+    newFileName = forms.CharField(max_length=30, label="TTL file name", required=False)
 
     def clean(self):
         cleaned_data = super().clean()
@@ -104,14 +104,16 @@ class convertForm(forms.Form):
 
     def clean_newFileName(self):
         newFileName = self.cleaned_data.get("newFileName")
-        if (newFileName!=None):
-            X = re.search(r'^[a-zA-Z0-9]', newFileName)
-            if (X==None):
-                raise forms.ValidationError("Put a simple name")
-            else:
-                return newFileName
+        
+        if (newFileName!=""):
+            if (newFileName in list(ttlModel.objects.all().values_list('ttlFileName',flat=True))):
+                raise forms.ValidationError("TTL name already exists !")
+            return newFileName
         else:
-            return None
+            newFileName = str(self.cleaned_data.get("fileToConvert"))
+            if (newFileName in list(ttlModel.objects.all().values_list('ttlFileName',flat=True))):
+                raise forms.ValidationError("TTL name already exists !")
+            return newFileName
 
 
 
