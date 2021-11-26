@@ -14,15 +14,22 @@ def triplifier(request):
             form2 = convertForm()
             form1 = uploadCsvForm(request.POST, request.FILES)
             if form1.is_valid:
+                print("FORM VALID")
+
                 document = form1.save(commit=False)
                 if document.csvFileName != "":
                     document.csvFile.name = document.csvFileName+".csv"
                 else:
                     document.csvFile.name = str(request.FILES["csvFile"])
                     document.csvFileName = str(request.FILES["csvFile"]).replace(".csv","")
+
+                if (document.csvFileName in list(csvModel.objects.all().values_list('csvFileName',flat=True))):
+                    print("FILE ALREADY EXISTS")
+                    return redirect('/')
+
                 document.save()
                 #once saved, the attributes for csvFile change, name and url adapt to the path
-                #where it is located (tpData/csv/...) and adapt if file in duplicate (ex test1_ze24GEZdz.csv)
+                #where it is located (tpData/csv/...) and adapt if file is in duplicate (ex test1_ze24GEZdz.csv)
                 return redirect('/')
 
         elif "convertBut" in request.POST:

@@ -45,9 +45,9 @@ class convertForm(forms.Form):
         titleRow = self.cleaned_data.get("titleRow")
         firstDataRow = self.cleaned_data.get("firstDataRow")
         lastDataRow = self.cleaned_data.get("lastDataRow")
-        
-        if (title=="select2" and titleRow!=None):
-            raise forms.ValidationError("No title row needed")
+        print(title)
+        if (title==False and titleRow!=None):
+            raise forms.ValidationError("There cannot be a title row if there are no titles")
         
         if ( (titleRow!=None and firstDataRow!=None) and titleRow > firstDataRow):
             raise forms.ValidationError("Title Row should be < to First Row")
