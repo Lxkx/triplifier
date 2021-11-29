@@ -1,5 +1,4 @@
 *.pdf
-*.ttl
 triplificator_env/
 data/
 .DS_Store
