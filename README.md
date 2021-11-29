@@ -1,6 +1,22 @@
 # CsvToTurtle
 
-TO SET UP A PROJECT
+TO LAUNCH THE PROJECT
+
+In your terminal, go inside the Django project folder
+```
+cd triplifier
+```
+
+Now, enter this command to run the Django server (be sure to have your virtual env activated):
+```
+python manage.py runserver
+```
+Finally, go in your web browser at [localhost](http://localhost:8000/)
+
+
+
+
+TO SET UP THE PROJECT
 
 ON MAC 
 
