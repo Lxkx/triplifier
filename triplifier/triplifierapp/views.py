@@ -73,13 +73,13 @@ def triplifier(request):
 
 
 def exportCSV(request, filename):
-    content = open("tpData/csv/"+filename, "r")
+    content = open("tpData/csv/"+filename, "r", encoding="utf-8")
     response = HttpResponse(content, content_type='text/csv')
     response['Content-Disposition'] = 'attachment; filename={0}'.format(filename)
     return response
 
 def exportTTL(request, filename):
-    content = open("tpData/ttl/"+filename+".ttl", "r")
+    content = open("tpData/ttl/"+filename+".ttl", "r", encoding="utf-8")
     response = HttpResponse(content, content_type='application/force-download')
     response['Content-Disposition'] = 'attachment; filename={0}'.format(filename)+".ttl"
     return response
