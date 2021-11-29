@@ -54,7 +54,7 @@ def triplifier(request):
                 ttlObj = ttlModel()
                 ttlObj.ttlFileName = str(form2.cleaned_data.get("newFileName"))
 
-                local_file = open("tpData/ttl/"+str(form2.cleaned_data.get("newFileName"))+".ttl")
+                local_file = open("tpData/ttl/"+str(form2.cleaned_data.get("newFileName"))+".ttl", 'rb')
                 ttlObj.ttlFile.save(str(form2.cleaned_data.get("newFileName"))+".ttl", File(local_file)) #getting duplicated file in cd
                 os.remove(ttlObj.ttlFileName+".ttl") #so we delete this file
                 local_file.close()

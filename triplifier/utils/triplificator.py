@@ -73,7 +73,7 @@ class Triplificator:
 
     def checkValues(self): #voir si les valeurs rentrees par l'uti sont ok (par ex titre ligne 12 mais au final pas premiere ligne)
                            #et rewrite les bonnes en fonction du csv si besoin (par ex par defaut 0 titre mais possible qu'a la ligne 4)
-        with open(self.csvPath, 'r') as csvFile:
+        with open(self.csvPath, 'r', encoding="utf-8") as csvFile:
 
             #set up of title row number
             csvReader = csv.reader(csvFile, delimiter=self.separator) #object: csv.Reader -> not subscriptable
@@ -115,7 +115,7 @@ class Triplificator:
         #here we assume that we have all the good configuration variables in our object, and rows numbers as indexes
 
         #write in output.ttl file
-        with open(path, "w") as turtleFile:
+        with open(path, "w", encoding="utf-8") as turtleFile:
             #first two rows are prefixes and the corresponding IRIs
             turtleFile.write("@prefix "+self.dataPrefixIRI+" .\n")
             turtleFile.write("@prefix "+self.predicatPrefixIRI+" .\n\n")
