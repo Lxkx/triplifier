@@ -122,7 +122,7 @@ class Triplificator:
 
             #open the csv to write info in ttl
             lineIndex = self.rowNumFirst
-            with open(self.csvPath, 'r') as csvFile:
+            with open(self.csvPath, 'r', encoding="utf-8") as csvFile:
                 csvReader = csv.reader(csvFile, delimiter=self.separator) #object: csv.Reader -> not subscriptable
                 csvReader = list(csvReader) #object: list -> subscriptable
                 print(csvReader)

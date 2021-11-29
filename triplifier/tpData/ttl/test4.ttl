@@ -1,0 +1,4203 @@
+@prefix d: <http://ex.org/data/> .
+@prefix p: <http://ex.org/pred#> .
+
+d:2		p:name		"Acatenango" ;
+		p:country		"Guatemala" ;
+		p:region		"Guatemala" ;
+		p:latitude		"14.501" ;
+		p:longitude		"-90.876" ;
+		p:elev		"3976" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:3		p:name		"Adatara" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"37.62" ;
+		p:longitude		"140.28" ;
+		p:elev		"1718" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:4		p:name		"Agung" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.342" ;
+		p:longitude		"115.508" ;
+		p:elev		"3142" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:5		p:name		"Akademia Nauk" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"53.98" ;
+		p:longitude		"159.45" ;
+		p:elev		"1180" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:6		p:name		"Akan" ;
+		p:country		"Japan" ;
+		p:region		"Hokkaido-Japan" ;
+		p:latitude		"43.38" ;
+		p:longitude		"144.02" ;
+		p:elev		"1499" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:7		p:name		"Akita-Komaga-take" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"39.75" ;
+		p:longitude		"140.8" ;
+		p:elev		"1637" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:8		p:name		"Akita-Yake-yama" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"39.97" ;
+		p:longitude		"140.77" ;
+		p:elev		"1366" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:9		p:name		"Akutan" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"54.13" ;
+		p:longitude		"-165.97" ;
+		p:elev		"1303" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:10		p:name		"Alaid" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"50.858" ;
+		p:longitude		"155.55" ;
+		p:elev		"2339" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:11		p:name		"Alcedo, Volcan" ;
+		p:country		"Ecuador" ;
+		p:region		"Galapagos" ;
+		p:latitude		"-0.43" ;
+		p:longitude		"-91.12" ;
+		p:elev		"1130" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:12		p:name		"Ambrym" ;
+		p:country		"Vanuatu" ;
+		p:region		"Vanuatu-SW Pacific" ;
+		p:latitude		"-16.25" ;
+		p:longitude		"168.12" ;
+		p:elev		"1334" ;
+		p:type		"Pyroclastic shield" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:13		p:name		"Amukta" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52.5" ;
+		p:longitude		"-171.25" ;
+		p:elev		"1066" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:14		p:name		"Aoba" ;
+		p:country		"Vanuatu" ;
+		p:region		"Vanuatu-SW Pacific" ;
+		p:latitude		"-15.4" ;
+		p:longitude		"167.83" ;
+		p:elev		"1496" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:15		p:name		"Aracar" ;
+		p:country		"Argentina" ;
+		p:region		"Argentina" ;
+		p:latitude		"-24.27" ;
+		p:longitude		"-67.77" ;
+		p:elev		"6082" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:16		p:name		"Ardoukoba" ;
+		p:country		"Djibouti" ;
+		p:region		"Africa-NE" ;
+		p:latitude		"11.58" ;
+		p:longitude		"42.47" ;
+		p:elev		"298" ;
+		p:type		"Fissure vent" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:17		p:name		"Arenal" ;
+		p:country		"Costa Rica" ;
+		p:region		"Costa Rica" ;
+		p:latitude		"10.463" ;
+		p:longitude		"-84.703" ;
+		p:elev		"1657" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:18		p:name		"Asama" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"36.4" ;
+		p:longitude		"138.53" ;
+		p:elev		"2560" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:19		p:name		"Aso" ;
+		p:country		"Japan" ;
+		p:region		"Kyushu-Japan" ;
+		p:latitude		"32.88" ;
+		p:longitude		"131.1" ;
+		p:elev		"1592" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:20		p:name		"Atka" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52.38" ;
+		p:longitude		"-174.15" ;
+		p:elev		"1533" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:21		p:name		"Augustine" ;
+		p:country		"United States" ;
+		p:region		"Alaska-SW" ;
+		p:latitude		"59.37" ;
+		p:longitude		"-153.42" ;
+		p:elev		"1252" ;
+		p:type		"Lava dome" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:22		p:name		"Avachinsky" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"53.255" ;
+		p:longitude		"158.83" ;
+		p:elev		"2741" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:23		p:name		"Awu" ;
+		p:country		"Indonesia" ;
+		p:region		"Sangihe Is-Indonesia" ;
+		p:latitude		"3.67" ;
+		p:longitude		"125.5" ;
+		p:elev		"1320" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:24		p:name		"Axial Seamount" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Pacific-NE" ;
+		p:latitude		"45.95" ;
+		p:longitude		"-130" ;
+		p:elev		"-1500" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:25		p:name		"Azul, Cerro" ;
+		p:country		"Ecuador" ;
+		p:region		"Galapagos" ;
+		p:latitude		"-0.9" ;
+		p:longitude		"-91.42" ;
+		p:elev		"1690" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:26		p:name		"Azul, Cerro [Quizapu]" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-35.653" ;
+		p:longitude		"-70.761" ;
+		p:elev		"3788" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:27		p:name		"Azuma" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"37.73" ;
+		p:longitude		"140.25" ;
+		p:elev		"2024" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:28		p:name		"Bagana" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"Bougainville-SW Paci" ;
+		p:latitude		"-6.14" ;
+		p:longitude		"155.195" ;
+		p:elev		"1750" ;
+		p:type		"Lava cone" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:29		p:name		"Banda Api" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Banda Sea" ;
+		p:latitude		"-4.525" ;
+		p:longitude		"129.871" ;
+		p:elev		"640" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:30		p:name		"Barren Island" ;
+		p:country		"India" ;
+		p:region		"Andaman Is-Indian O" ;
+		p:latitude		"12.292" ;
+		p:longitude		"93.875" ;
+		p:elev		"354" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:31		p:name		"Batur" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.242" ;
+		p:longitude		"115.375" ;
+		p:elev		"1717" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:32		p:name		"Bayonnaise Rocks" ;
+		p:country		"Japan" ;
+		p:region		"Izu Is-Japan" ;
+		p:latitude		"31.92" ;
+		p:longitude		"139.92" ;
+		p:elev		"10" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:33		p:name		"Bezymianny" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"55.978" ;
+		p:longitude		"160.587" ;
+		p:elev		"2882" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:34		p:name		"Bogoslof" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"53.93" ;
+		p:longitude		"-168.03" ;
+		p:elev		"101" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:35		p:name		"Bulusan" ;
+		p:country		"Philippines" ;
+		p:region		"Luzon-Philippines" ;
+		p:latitude		"12.77" ;
+		p:longitude		"124.05" ;
+		p:elev		"1565" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:36		p:name		"Callaqui" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-37.92" ;
+		p:longitude		"-71.45" ;
+		p:elev		"3164" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:37		p:name		"Cameroon, Mt." ;
+		p:country		"Cameroon" ;
+		p:region		"Africa-W" ;
+		p:latitude		"4.203" ;
+		p:longitude		"9.17" ;
+		p:elev		"4095" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:38		p:name		"Canlaon" ;
+		p:country		"Philippines" ;
+		p:region		"Philippines-C" ;
+		p:latitude		"10.412" ;
+		p:longitude		"123.132" ;
+		p:elev		"2435" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:39		p:name		"Carran-Los Venados" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-40.35" ;
+		p:longitude		"-72.07" ;
+		p:elev		"1114" ;
+		p:type		"Pyroclastic cone" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:40		p:name		"Chaiten" ;
+		p:country		"Chile" ;
+		p:region		"Chile-S" ;
+		p:latitude		"-42.833" ;
+		p:longitude		"-72.646" ;
+		p:elev		"962" ;
+		p:type		"Caldera" ;
+		p:status		"Holocene" ;
+		p:last		"D1" ;
+		.
+d:41		p:name		"Chichon, El" ;
+		p:country		"Mexico" ;
+		p:region		"Mexico" ;
+		p:latitude		"17.36" ;
+		p:longitude		"-93.228" ;
+		p:elev		"1150" ;
+		p:type		"Tuff cone" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:42		p:name		"Chiginagak" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"57.13" ;
+		p:longitude		"-157" ;
+		p:elev		"2075" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:43		p:name		"Chikurachki" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"50.325" ;
+		p:longitude		"155.458" ;
+		p:elev		"1816" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:44		p:name		"Chillan, Nevados de" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-36.863" ;
+		p:longitude		"-71.377" ;
+		p:elev		"3212" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:45		p:name		"Chirinkotan" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"48.98" ;
+		p:longitude		"153.48" ;
+		p:elev		"724" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:46		p:name		"Chirpoi" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"46.525" ;
+		p:longitude		"150.875" ;
+		p:elev		"742" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:47		p:name		"Chokai" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"39.08" ;
+		p:longitude		"140.03" ;
+		p:elev		"2237" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:48		p:name		"Cleft Segment" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Pacific-NE" ;
+		p:latitude		"44.83" ;
+		p:longitude		"-130.3" ;
+		p:elev		"-2140" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:49		p:name		"Cleveland" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52.82" ;
+		p:longitude		"-169.95" ;
+		p:elev		"1730" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:50		p:name		"CoAxial Segment" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Pacific-NE" ;
+		p:latitude		"46.52" ;
+		p:longitude		"-129.58" ;
+		p:elev		"-2400" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:51		p:name		"Colima" ;
+		p:country		"Mexico" ;
+		p:region		"Mexico" ;
+		p:latitude		"19.514" ;
+		p:longitude		"-103.62" ;
+		p:elev		"3850" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:52		p:name		"Colo [Una Una]" ;
+		p:country		"Indonesia" ;
+		p:region		"Sulawesi-Indonesia" ;
+		p:latitude		"-0.17" ;
+		p:longitude		"121.608" ;
+		p:elev		"507" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:53		p:name		"Concepcion" ;
+		p:country		"Nicaragua" ;
+		p:region		"Nicaragua" ;
+		p:latitude		"11.538" ;
+		p:longitude		"-85.622" ;
+		p:elev		"1700" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:54		p:name		"Copahue" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-37.85" ;
+		p:longitude		"-71.17" ;
+		p:elev		"2965" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:55		p:name		"Curacoa" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-15.62" ;
+		p:longitude		"-173.67" ;
+		p:elev		"-33" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:56		p:name		"Deception Island" ;
+		p:country		"Antarctica" ;
+		p:region		"Antarctica" ;
+		p:latitude		"-62.97" ;
+		p:longitude		"-60.65" ;
+		p:elev		"576" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:57		p:name		"Dempo" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"-4.03" ;
+		p:longitude		"103.13" ;
+		p:elev		"3173" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:58		p:name		"Didicas" ;
+		p:country		"Philippines" ;
+		p:region		"Luzon-N of" ;
+		p:latitude		"19.077" ;
+		p:longitude		"122.202" ;
+		p:elev		"244" ;
+		p:type		"Compound volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:59		p:name		"Dieng Volc Complex" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-7.2" ;
+		p:longitude		"109.92" ;
+		p:elev		"2565" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:60		p:name		"Dukono" ;
+		p:country		"Indonesia" ;
+		p:region		"Halmahera-Indonesia" ;
+		p:latitude		"1.68" ;
+		p:longitude		"127.88" ;
+		p:elev		"1185" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:61		p:name		"Eastern Gemini Seamount" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"SW Pacific" ;
+		p:latitude		"-20.98" ;
+		p:longitude		"170.28" ;
+		p:elev		"-80" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:62		p:name		"Ebeko" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"50.68" ;
+		p:longitude		"156.02" ;
+		p:elev		"1156" ;
+		p:type		"Somma volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:63		p:name		"Ebulobo" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.808" ;
+		p:longitude		"121.18" ;
+		p:elev		"2124" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:64		p:name		"Ekarma" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"48.958" ;
+		p:longitude		"153.93" ;
+		p:elev		"1170" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:65		p:name		"Epi" ;
+		p:country		"Vanuatu" ;
+		p:region		"Vanuatu-SW Pacific" ;
+		p:latitude		"-16.68" ;
+		p:longitude		"168.37" ;
+		p:elev		"833" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:66		p:name		"Erebus" ;
+		p:country		"Antarctica" ;
+		p:region		"Antarctica" ;
+		p:latitude		"-77.53" ;
+		p:longitude		"167.17" ;
+		p:elev		"3794" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:67		p:name		"Erta Ale" ;
+		p:country		"Ethiopia" ;
+		p:region		"Africa-NE" ;
+		p:latitude		"13.6" ;
+		p:longitude		"40.67" ;
+		p:elev		"613" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:68		p:name		"Etna" ;
+		p:country		"Italy" ;
+		p:region		"Italy" ;
+		p:latitude		"37.734" ;
+		p:longitude		"15.004" ;
+		p:elev		"3350" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:69		p:name		"Eyjafjallajokull" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-S" ;
+		p:latitude		"63.63" ;
+		p:longitude		"-19.62" ;
+		p:elev		"1666" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:70		p:name		"Farallon de Pajaros" ;
+		p:country		"United States" ;
+		p:region		"Mariana Is-C Pacific" ;
+		p:latitude		"20.53" ;
+		p:longitude		"144.9" ;
+		p:elev		"360" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:71		p:name		"Fernandina" ;
+		p:country		"Ecuador" ;
+		p:region		"Galapagos" ;
+		p:latitude		"-0.37" ;
+		p:longitude		"-91.55" ;
+		p:elev		"1495" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:72		p:name		"Fogo" ;
+		p:country		"Cape Verde" ;
+		p:region		"Cape Verde Is" ;
+		p:latitude		"14.95" ;
+		p:longitude		"-24.35" ;
+		p:elev		"2829" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:73		p:name		"Fournaise, Piton de la" ;
+		p:country		"Reunion" ;
+		p:region		"Indian O-W" ;
+		p:latitude		"-21.229" ;
+		p:longitude		"55.713" ;
+		p:elev		"2631" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:74		p:name		"Fuego" ;
+		p:country		"Guatemala" ;
+		p:region		"Guatemala" ;
+		p:latitude		"14.473" ;
+		p:longitude		"-90.88" ;
+		p:elev		"3763" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:75		p:name		"Fukujin" ;
+		p:country		"Japan" ;
+		p:region		"Volcano Is-Japan" ;
+		p:latitude		"21.925" ;
+		p:longitude		"143.442" ;
+		p:elev		"-217" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:76		p:name		"Fukutoku-okanoba" ;
+		p:country		"Japan" ;
+		p:region		"Volcano Is-Japan" ;
+		p:latitude		"24.28" ;
+		p:longitude		"141.52" ;
+		p:elev		"-14" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:77		p:name		"Galapagos Rift" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Pacific-E" ;
+		p:latitude		"0.792" ;
+		p:longitude		"-86.15" ;
+		p:elev		"-2430" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:78		p:name		"Galeras" ;
+		p:country		"Colombia" ;
+		p:region		"Colombia" ;
+		p:latitude		"1.22" ;
+		p:longitude		"-77.37" ;
+		p:elev		"4276" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:79		p:name		"Galunggung" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-7.25" ;
+		p:longitude		"108.05" ;
+		p:elev		"2168" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:80		p:name		"Gamalama" ;
+		p:country		"Indonesia" ;
+		p:region		"Halmahera-Indonesia" ;
+		p:latitude		"0.8" ;
+		p:longitude		"127.325" ;
+		p:elev		"1715" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:81		p:name		"Gamkonora" ;
+		p:country		"Indonesia" ;
+		p:region		"Halmahera-Indonesia" ;
+		p:latitude		"1.375" ;
+		p:longitude		"127.52" ;
+		p:elev		"1635" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:82		p:name		"Gareloi" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"51.78" ;
+		p:longitude		"-178.8" ;
+		p:elev		"1573" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:83		p:name		"Gaua" ;
+		p:country		"Vanuatu" ;
+		p:region		"Vanuatu-SW Pacific" ;
+		p:latitude		"-14.27" ;
+		p:longitude		"167.5" ;
+		p:elev		"797" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:84		p:name		"Gorely" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"52.558" ;
+		p:longitude		"158.03" ;
+		p:elev		"1829" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:85		p:name		"Great Sitkin" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52.08" ;
+		p:longitude		"-176.13" ;
+		p:elev		"1740" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:86		p:name		"Grimsvotn" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-NE" ;
+		p:latitude		"64.42" ;
+		p:longitude		"-17.33" ;
+		p:elev		"1725" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:87		p:name		"Grozny Group" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"45.02" ;
+		p:longitude		"147.87" ;
+		p:elev		"1211" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:88		p:name		"Guagua Pichincha" ;
+		p:country		"Ecuador" ;
+		p:region		"Ecuador" ;
+		p:latitude		"-0.171" ;
+		p:longitude		"-78.598" ;
+		p:elev		"4784" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:89		p:name		"Heard" ;
+		p:country		"Heard I. & McDonald Is." ;
+		p:region		"Indian O-S" ;
+		p:latitude		"-53.106" ;
+		p:longitude		"73.513" ;
+		p:elev		"2745" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:90		p:name		"Hekla" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-S" ;
+		p:latitude		"63.98" ;
+		p:longitude		"-19.7" ;
+		p:elev		"1491" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:91		p:name		"Home Reef" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-18.992" ;
+		p:longitude		"-174.775" ;
+		p:elev		"-2" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:92		p:name		"Hudson, Cerro" ;
+		p:country		"Chile" ;
+		p:region		"Chile-S" ;
+		p:latitude		"-45.9" ;
+		p:longitude		"-72.97" ;
+		p:elev		"1905" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:93		p:name		"Hunga Tonga-Hunga Ha'apai" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-20.57" ;
+		p:longitude		"-175.38" ;
+		p:elev		"0" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:94		p:name		"Ibu" ;
+		p:country		"Indonesia" ;
+		p:region		"Halmahera-Indonesia" ;
+		p:latitude		"1.475" ;
+		p:longitude		"127.642" ;
+		p:elev		"1325" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:95		p:name		"Ijen" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-8.058" ;
+		p:longitude		"114.242" ;
+		p:elev		"2799" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:96		p:name		"Iliboleng" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.342" ;
+		p:longitude		"123.258" ;
+		p:elev		"1659" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:97		p:name		"Iliwerung" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.54" ;
+		p:longitude		"123.59" ;
+		p:elev		"1018" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:98		p:name		"Irazu" ;
+		p:country		"Costa Rica" ;
+		p:region		"Costa Rica" ;
+		p:latitude		"9.979" ;
+		p:longitude		"-83.852" ;
+		p:elev		"3432" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:99		p:name		"Irruputuncu" ;
+		p:country		"Bolivia" ;
+		p:region		"Chile-N" ;
+		p:latitude		"-20.73" ;
+		p:longitude		"-68.55" ;
+		p:elev		"5163" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:100		p:name		"Iwo-Tori-shima" ;
+		p:country		"Japan" ;
+		p:region		"Ryukyu Is" ;
+		p:latitude		"27.85" ;
+		p:longitude		"128.25" ;
+		p:elev		"217" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:101		p:name		"Iwo-jima" ;
+		p:country		"Japan" ;
+		p:region		"Volcano Is-Japan" ;
+		p:latitude		"24.75" ;
+		p:longitude		"141.33" ;
+		p:elev		"161" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:102		p:name		"Iya" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.88" ;
+		p:longitude		"121.63" ;
+		p:elev		"637" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:103		p:name		"Izalco" ;
+		p:country		"El Salvador" ;
+		p:region		"El Salvador" ;
+		p:latitude		"13.813" ;
+		p:longitude		"-89.633" ;
+		p:elev		"1950" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:104		p:name		"Izu-Tobu" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"34.92" ;
+		p:longitude		"139.12" ;
+		p:elev		"1406" ;
+		p:type		"Pyroclastic cone" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:105		p:name		"Jan Mayen" ;
+		p:country		"Jan Mayen" ;
+		p:region		"Atlantic-N-Jan Mayen" ;
+		p:latitude		"71.08" ;
+		p:longitude		"-8.17" ;
+		p:elev		"2277" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:106		p:name		"Kaitoku Seamount" ;
+		p:country		"Japan" ;
+		p:region		"Volcano Is-Japan" ;
+		p:latitude		"26.122" ;
+		p:longitude		"141.102" ;
+		p:elev		"-10" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:107		p:name		"Kanaga" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"51.92" ;
+		p:longitude		"-177.17" ;
+		p:elev		"1307" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:108		p:name		"Karangetang [Api Siau]" ;
+		p:country		"Indonesia" ;
+		p:region		"Sangihe Is-Indonesia" ;
+		p:latitude		"2.78" ;
+		p:longitude		"125.48" ;
+		p:elev		"1784" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:109		p:name		"Karkar" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Guinea-NE of" ;
+		p:latitude		"-4.649" ;
+		p:longitude		"145.964" ;
+		p:elev		"1839" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:110		p:name		"Karthala" ;
+		p:country		"Comoros" ;
+		p:region		"Indian O-W" ;
+		p:latitude		"-11.75" ;
+		p:longitude		"43.38" ;
+		p:elev		"2361" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:111		p:name		"Karymsky" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"54.05" ;
+		p:longitude		"159.43" ;
+		p:elev		"1536" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:112		p:name		"Kasatochi" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52.18" ;
+		p:longitude		"-175.5" ;
+		p:elev		"314" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:113		p:name		"Kavachi" ;
+		p:country		"Solomon Is." ;
+		p:region		"Solomon Is-SW Pacifi" ;
+		p:latitude		"-9.02" ;
+		p:longitude		"157.95" ;
+		p:elev		"-20" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:114		p:name		"Kelimutu" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.758" ;
+		p:longitude		"121.83" ;
+		p:elev		"1640" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:115		p:name		"Kelut" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-7.93" ;
+		p:longitude		"112.308" ;
+		p:elev		"1731" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:116		p:name		"Kerinci" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"-1.814" ;
+		p:longitude		"101.264" ;
+		p:elev		"3800" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:117		p:name		"Kick-'em-Jenny" ;
+		p:country		"Netherlands" ;
+		p:region		"W Indies" ;
+		p:latitude		"12.3" ;
+		p:longitude		"-61.63" ;
+		p:elev		"-177" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:118		p:name		"Kikai" ;
+		p:country		"Japan" ;
+		p:region		"Ryukyu Is" ;
+		p:latitude		"30.78" ;
+		p:longitude		"130.28" ;
+		p:elev		"717" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:119		p:name		"Kilauea" ;
+		p:country		"United States" ;
+		p:region		"Hawaiian Is" ;
+		p:latitude		"19.425" ;
+		p:longitude		"-155.292" ;
+		p:elev		"1222" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:120		p:name		"Kirishima" ;
+		p:country		"Japan" ;
+		p:region		"Kyushu-Japan" ;
+		p:latitude		"31.93" ;
+		p:longitude		"130.87" ;
+		p:elev		"1700" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:121		p:name		"Kiska" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52.1" ;
+		p:longitude		"177.6" ;
+		p:elev		"1220" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:122		p:name		"Kliuchevskoi" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"56.057" ;
+		p:longitude		"160.638" ;
+		p:elev		"4835" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:123		p:name		"Kolokol Group" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"46.042" ;
+		p:longitude		"150.05" ;
+		p:elev		"1328" ;
+		p:type		"Somma volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:124		p:name		"Komaga-take" ;
+		p:country		"Japan" ;
+		p:region		"Hokkaido-Japan" ;
+		p:latitude		"42.07" ;
+		p:longitude		"140.68" ;
+		p:elev		"1140" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:125		p:name		"Krafla" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-NE" ;
+		p:latitude		"65.73" ;
+		p:longitude		"-16.78" ;
+		p:elev		"650" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:126		p:name		"Krakagiger" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-S" ;
+		p:latitude		"63.98" ;
+		p:longitude		"-19.7" ;
+		p:elev		"1491" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:127		p:name		"Krakatau" ;
+		p:country		"Indonesia" ;
+		p:region		"Indonesia" ;
+		p:latitude		"-6.102" ;
+		p:longitude		"105.423" ;
+		p:elev		"813" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:128		p:name		"Kuchinoerabu-jima" ;
+		p:country		"Japan" ;
+		p:region		"Ryukyu Is" ;
+		p:latitude		"30.43" ;
+		p:longitude		"130.22" ;
+		p:elev		"649" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:129		p:name		"Kuju Group" ;
+		p:country		"Japan" ;
+		p:region		"Kyushu-Japan" ;
+		p:latitude		"33.08" ;
+		p:longitude		"131.25" ;
+		p:elev		"1788" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:130		p:name		"Kupreanof" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"56.02" ;
+		p:longitude		"-159.8" ;
+		p:elev		"1895" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:131		p:name		"Kusatsu-Shirane" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"36.62" ;
+		p:longitude		"138.55" ;
+		p:elev		"2176" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:132		p:name		"Kuwae" ;
+		p:country		"Vanuatu" ;
+		p:region		"Vanuatu-SW Pacific" ;
+		p:latitude		"-16.829" ;
+		p:longitude		"168.536" ;
+		p:elev		"-2" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:133		p:name		"Kverkfjoll" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-NE" ;
+		p:latitude		"64.65" ;
+		p:longitude		"-16.72" ;
+		p:elev		"1920" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:134		p:name		"La Palma" ;
+		p:country		"Spain" ;
+		p:region		"Canary Is" ;
+		p:latitude		"28.58" ;
+		p:longitude		"-17.83" ;
+		p:elev		"2426" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:135		p:name		"Lakagigar" ;
+		p:country		"Sweden" ;
+		p:region		"Iceland-NE" ;
+		p:latitude		"64.42" ;
+		p:longitude		"17.33" ;
+		p:elev		"1725" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:136		p:name		"Lambafit" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-S" ;
+		p:latitude		"64.08" ;
+		p:longitude		"-19.4" ;
+		p:elev		"550" ;
+		p:type		"Crater rows" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:137		p:name		"Langila" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Britain-SW Pac" ;
+		p:latitude		"-5.525" ;
+		p:longitude		"148.42" ;
+		p:elev		"1330" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:138		p:name		"Lascar" ;
+		p:country		"Chile" ;
+		p:region		"Chile-N" ;
+		p:latitude		"-23.37" ;
+		p:longitude		"-67.73" ;
+		p:elev		"5592" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:139		p:name		"Lengai, Ol Doinyo" ;
+		p:country		"Tanzania" ;
+		p:region		"Africa-E" ;
+		p:latitude		"-2.751" ;
+		p:longitude		"35.902" ;
+		p:elev		"2890" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:140		p:name		"Lewotobi" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.53" ;
+		p:longitude		"122.775" ;
+		p:elev		"1703" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:141		p:name		"Lewotobi Perempuan" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.575" ;
+		p:longitude		"122.78" ;
+		p:elev		"1703" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:142		p:name		"Llaima" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-38.692" ;
+		p:longitude		"-71.729" ;
+		p:elev		"3125" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:143		p:name		"Loihi" ;
+		p:country		"United States" ;
+		p:region		"Hawaiian Is" ;
+		p:latitude		"18.92" ;
+		p:longitude		"-155.27" ;
+		p:elev		"-975" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:144		p:name		"Lokon-Empung" ;
+		p:country		"Indonesia" ;
+		p:region		"Sulawesi-Indonesia" ;
+		p:latitude		"1.358" ;
+		p:longitude		"124.792" ;
+		p:elev		"1580" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:145		p:name		"Long Island" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Guinea-NE of" ;
+		p:latitude		"-5.358" ;
+		p:longitude		"147.12" ;
+		p:elev		"1280" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:146		p:name		"Lonquimay" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-38.377" ;
+		p:longitude		"-71.58" ;
+		p:elev		"2865" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:147		p:name		"Lopevi" ;
+		p:country		"Vanuatu" ;
+		p:region		"Vanuatu-SW Pacific" ;
+		p:latitude		"-16.507" ;
+		p:longitude		"168.346" ;
+		p:elev		"1413" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:148		p:name		"Macdonald" ;
+		p:country		"Antarctica" ;
+		p:region		"Austral Is-C Pacific" ;
+		p:latitude		"-28.98" ;
+		p:longitude		"-140.25" ;
+		p:elev		"-50" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:149		p:name		"Mahawu" ;
+		p:country		"Indonesia" ;
+		p:region		"Sulawesi-Indonesia" ;
+		p:latitude		"1.358" ;
+		p:longitude		"124.858" ;
+		p:elev		"1324" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:150		p:name		"Makian" ;
+		p:country		"Indonesia" ;
+		p:region		"Halmahera-Indonesia" ;
+		p:latitude		"0.32" ;
+		p:longitude		"127.4" ;
+		p:elev		"1357" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:151		p:name		"Makushin" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"53.9" ;
+		p:longitude		"-166.93" ;
+		p:elev		"2036" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:152		p:name		"Manam" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Guinea-NE of" ;
+		p:latitude		"-4.1" ;
+		p:longitude		"145.061" ;
+		p:elev		"1807" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:153		p:name		"Marapi" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"-0.381" ;
+		p:longitude		"100.473" ;
+		p:elev		"2891" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:154		p:name		"Marchena" ;
+		p:country		"Ecuador" ;
+		p:region		"Galapagos" ;
+		p:latitude		"0.33" ;
+		p:longitude		"-90.47" ;
+		p:elev		"343" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:155		p:name		"Marion Island" ;
+		p:country		"South Africa" ;
+		p:region		"Indian O-S" ;
+		p:latitude		"-46.9" ;
+		p:longitude		"37.75" ;
+		p:elev		"1230" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:156		p:name		"Masaya" ;
+		p:country		"Nicaragua" ;
+		p:region		"Nicaragua" ;
+		p:latitude		"11.984" ;
+		p:longitude		"-86.161" ;
+		p:elev		"635" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:157		p:name		"Mauna Loa" ;
+		p:country		"United States" ;
+		p:region		"Hawaiian Is" ;
+		p:latitude		"19.475" ;
+		p:longitude		"-155.608" ;
+		p:elev		"4170" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:158		p:name		"Mayon" ;
+		p:country		"Philippines" ;
+		p:region		"Luzon-Philippines" ;
+		p:latitude		"13.257" ;
+		p:longitude		"123.685" ;
+		p:elev		"2462" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:159		p:name		"McDonald Islands" ;
+		p:country		"Indian Ocean" ;
+		p:region		"Indian O-S" ;
+		p:latitude		"-53.03" ;
+		p:longitude		"72.6" ;
+		p:elev		"186" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:160		p:name		"Medvezhia" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"45.38" ;
+		p:longitude		"148.83" ;
+		p:elev		"1124" ;
+		p:type		"Somma volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:161		p:name		"Merapi" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-7.542" ;
+		p:longitude		"110.442" ;
+		p:elev		"2947" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:162		p:name		"Metis Shoal" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-19.18" ;
+		p:longitude		"-174.87" ;
+		p:elev		"43" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:163		p:name		"Minami-Hiyoshi" ;
+		p:country		"Japan" ;
+		p:region		"Volcano Is-Japan" ;
+		p:latitude		"23.507" ;
+		p:longitude		"141.905" ;
+		p:elev		"-30" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:164		p:name		"Miyake-jima" ;
+		p:country		"Japan" ;
+		p:region		"Izu Is-Japan" ;
+		p:latitude		"34.08" ;
+		p:longitude		"139.53" ;
+		p:elev		"815" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:165		p:name		"Monowai Seamount" ;
+		p:country		"New Zealand" ;
+		p:region		"Kermadec Is" ;
+		p:latitude		"-25.887" ;
+		p:longitude		"-177.188" ;
+		p:elev		"-100" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:166		p:name		"Mundafell" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-S" ;
+		p:latitude		"63.98" ;
+		p:longitude		"-19.7" ;
+		p:elev		"1491" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:167		p:name		"Negra, Sierra" ;
+		p:country		"Ecuador" ;
+		p:region		"Galapagos" ;
+		p:latitude		"-0.83" ;
+		p:longitude		"-91.17" ;
+		p:elev		"1490" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:168		p:name		"Negro, Cerro" ;
+		p:country		"Nicaragua" ;
+		p:region		"Nicaragua" ;
+		p:latitude		"12.506" ;
+		p:longitude		"-86.702" ;
+		p:elev		"728" ;
+		p:type		"Cinder cone" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:169		p:name		"Ngauruhoe" ;
+		p:country		"New Zealand" ;
+		p:region		"New Zealand" ;
+		p:latitude		"-39.158" ;
+		p:longitude		"175.63" ;
+		p:elev		"2291" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:170		p:name		"Niigata-Yake-yama" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"36.92" ;
+		p:longitude		"138.03" ;
+		p:elev		"2400" ;
+		p:type		"Lava dome" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:171		p:name		"Nila" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Banda Sea" ;
+		p:latitude		"-6.73" ;
+		p:longitude		"129.5" ;
+		p:elev		"781" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:172		p:name		"Nishino-shima" ;
+		p:country		"Japan" ;
+		p:region		"Volcano Is-Japan" ;
+		p:latitude		"27.243" ;
+		p:longitude		"140.877" ;
+		p:elev		"52" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:173		p:name		"Niuafo'ou" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-15.6" ;
+		p:longitude		"-175.63" ;
+		p:elev		"260" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:174		p:name		"North Gorda Ridge" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Pacific-NE" ;
+		p:latitude		"42.67" ;
+		p:longitude		"-126.78" ;
+		p:elev		"-3000" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:175		p:name		"Nyamuragira" ;
+		p:country		"Congo, DRC" ;
+		p:region		"Africa-C" ;
+		p:latitude		"-1.408" ;
+		p:longitude		"29.2" ;
+		p:elev		"3058" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:176		p:name		"Nyiragongo" ;
+		p:country		"Congo, DRC" ;
+		p:region		"Africa-C" ;
+		p:latitude		"-1.52" ;
+		p:longitude		"29.25" ;
+		p:elev		"3470" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:177		p:name		"Okataina" ;
+		p:country		"New Zealand" ;
+		p:region		"New Zealand" ;
+		p:latitude		"-38.12" ;
+		p:longitude		"176.5" ;
+		p:elev		"1111" ;
+		p:type		"Lava dome" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:178		p:name		"Okmok" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"53.42" ;
+		p:longitude		"-168.13" ;
+		p:elev		"1073" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:179		p:name		"On-take" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"35.9" ;
+		p:longitude		"137.48" ;
+		p:elev		"3063" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:180		p:name		"Oshima" ;
+		p:country		"Japan" ;
+		p:region		"Izu Is-Japan" ;
+		p:latitude		"34.73" ;
+		p:longitude		"139.38" ;
+		p:elev		"758" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:181		p:name		"Pacaya" ;
+		p:country		"Guatemala" ;
+		p:region		"Guatemala" ;
+		p:latitude		"14.381" ;
+		p:longitude		"-90.601" ;
+		p:elev		"2552" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:182		p:name		"Pagan" ;
+		p:country		"United States" ;
+		p:region		"Mariana Is-C Pacific" ;
+		p:latitude		"18.13" ;
+		p:longitude		"145.8" ;
+		p:elev		"570" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:183		p:name		"Paluweh" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.32" ;
+		p:longitude		"121.708" ;
+		p:elev		"875" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:184		p:name		"Pavlof" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"55.42" ;
+		p:longitude		"-161.9" ;
+		p:elev		"2519" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:185		p:name		"Peuet Sague" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"4.914" ;
+		p:longitude		"96.329" ;
+		p:elev		"2801" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:186		p:name		"Pinatubo" ;
+		p:country		"Philippines" ;
+		p:region		"Luzon-Philippines" ;
+		p:latitude		"15.13" ;
+		p:longitude		"120.35" ;
+		p:elev		"1486" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:187		p:name		"Piparo" ;
+		p:country		"Trinidad" ;
+		p:region		"Trinidad" ;
+		p:latitude		"10" ;
+		p:longitude		"-61" ;
+		p:elev		"140" ;
+		p:type		"Mud volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:188		p:name		"Planchon-Peteroa" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-35.24" ;
+		p:longitude		"-70.57" ;
+		p:elev		"4107" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:189		p:name		"Poas" ;
+		p:country		"Costa Rica" ;
+		p:region		"Costa Rica" ;
+		p:latitude		"10.2" ;
+		p:longitude		"-84.233" ;
+		p:elev		"2708" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:190		p:name		"Popocatepetl" ;
+		p:country		"Mexico" ;
+		p:region		"Mexico" ;
+		p:latitude		"19.023" ;
+		p:longitude		"-98.622" ;
+		p:elev		"5426" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:191		p:name		"Purace" ;
+		p:country		"Colombia" ;
+		p:region		"Colombia" ;
+		p:latitude		"2.32" ;
+		p:longitude		"-76.4" ;
+		p:elev		"4650" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:192		p:name		"Putana" ;
+		p:country		"Chile" ;
+		p:region		"Chile-N" ;
+		p:latitude		"-22.57" ;
+		p:longitude		"-67.87" ;
+		p:elev		"5890" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:193		p:name		"Rabaul" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Britain-SW Pac" ;
+		p:latitude		"-4.271" ;
+		p:longitude		"152.203" ;
+		p:elev		"688" ;
+		p:type		"Pyroclastic shield" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:194		p:name		"Ranakah" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.62" ;
+		p:longitude		"120.52" ;
+		p:elev		"2100" ;
+		p:type		"Lava dome" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:195		p:name		"Raoul Island" ;
+		p:country		"New Zealand" ;
+		p:region		"Kermadec Is" ;
+		p:latitude		"-29.27" ;
+		p:longitude		"-177.92" ;
+		p:elev		"516" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:196		p:name		"Raung" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-8.125" ;
+		p:longitude		"114.042" ;
+		p:elev		"3332" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:197		p:name		"Redoubt" ;
+		p:country		"United States" ;
+		p:region		"Alaska-SW" ;
+		p:latitude		"60.48" ;
+		p:longitude		"-152.75" ;
+		p:elev		"3108" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:198		p:name		"Reventador" ;
+		p:country		"Ecuador" ;
+		p:region		"Ecuador" ;
+		p:latitude		"-0.078" ;
+		p:longitude		"-77.656" ;
+		p:elev		"3562" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:199		p:name		"Reykjaneshryggur" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-SW" ;
+		p:latitude		"63.67" ;
+		p:longitude		"-23.33" ;
+		p:elev		"80" ;
+		p:type		"Submarine volcanoes" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:200		p:name		"Rincon de la Vieja" ;
+		p:country		"Costa Rica" ;
+		p:region		"Costa Rica" ;
+		p:latitude		"10.83" ;
+		p:longitude		"-85.324" ;
+		p:elev		"1916" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:201		p:name		"Rinjani" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.42" ;
+		p:longitude		"116.47" ;
+		p:elev		"3726" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:202		p:name		"Ritter Island" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Guinea-NE of" ;
+		p:latitude		"-5.52" ;
+		p:longitude		"148.121" ;
+		p:elev		"140" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:203		p:name		"Ruapehu" ;
+		p:country		"New Zealand" ;
+		p:region		"New Zealand" ;
+		p:latitude		"-39.28" ;
+		p:longitude		"175.57" ;
+		p:elev		"2797" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:204		p:name		"Ruby" ;
+		p:country		"United States" ;
+		p:region		"Mariana Is-C Pacific" ;
+		p:latitude		"15.62" ;
+		p:longitude		"145.57" ;
+		p:elev		"-230" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:205		p:name		"Ruiz" ;
+		p:country		"Colombia" ;
+		p:region		"Colombia" ;
+		p:latitude		"4.895" ;
+		p:longitude		"-75.322" ;
+		p:elev		"5321" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:206		p:name		"Rumble III" ;
+		p:country		"New Zealand" ;
+		p:region		"New Zealand" ;
+		p:latitude		"-35.745" ;
+		p:longitude		"178.478" ;
+		p:elev		"-140" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Hydrophonic" ;
+		p:last		"D1" ;
+		.
+d:207		p:name		"Sabancaya" ;
+		p:country		"Peru" ;
+		p:region		"Peru" ;
+		p:latitude		"-15.78" ;
+		p:longitude		"-71.85" ;
+		p:elev		"5967" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:208		p:name		"Sakura-jima" ;
+		p:country		"Japan" ;
+		p:region		"Kyushu-Japan" ;
+		p:latitude		"31.58" ;
+		p:longitude		"130.67" ;
+		p:elev		"1117" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:209		p:name		"San Cristobal" ;
+		p:country		"Nicaragua" ;
+		p:region		"Nicaragua" ;
+		p:latitude		"12.702" ;
+		p:longitude		"-87.004" ;
+		p:elev		"1745" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:210		p:name		"San Miguel" ;
+		p:country		"El Salvador" ;
+		p:region		"El Salvador" ;
+		p:latitude		"13.431" ;
+		p:longitude		"-88.272" ;
+		p:elev		"2130" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:211		p:name		"Sangay" ;
+		p:country		"Ecuador" ;
+		p:region		"Ecuador" ;
+		p:latitude		"-2.03" ;
+		p:longitude		"-78.33" ;
+		p:elev		"5230" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:212		p:name		"Sangeang Api" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.18" ;
+		p:longitude		"119.058" ;
+		p:elev		"1949" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:213		p:name		"Santa Maria" ;
+		p:country		"Guatemala" ;
+		p:region		"Guatemala" ;
+		p:latitude		"14.756" ;
+		p:longitude		"-91.552" ;
+		p:elev		"3772" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:214		p:name		"Sarychev Peak" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"48.092" ;
+		p:longitude		"153.2" ;
+		p:elev		"1496" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:215		p:name		"Seguam" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52.32" ;
+		p:longitude		"-172.52" ;
+		p:elev		"1054" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:216		p:name		"Semeru" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-8.108" ;
+		p:longitude		"112.92" ;
+		p:elev		"3676" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:217		p:name		"Semisopochnoi" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"51.95" ;
+		p:longitude		"179.62" ;
+		p:elev		"1221" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:218		p:name		"Shikotsu" ;
+		p:country		"Japan" ;
+		p:region		"Hokkaido-Japan" ;
+		p:latitude		"42.7" ;
+		p:longitude		"141.33" ;
+		p:elev		"1320" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:219		p:name		"Shishaldin" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"54.75" ;
+		p:longitude		"-163.97" ;
+		p:elev		"2857" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:220		p:name		"Shiveluch" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"56.653" ;
+		p:longitude		"161.36" ;
+		p:elev		"3283" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:221		p:name		"Sirung" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.51" ;
+		p:longitude		"124.148" ;
+		p:elev		"862" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:222		p:name		"Slamet" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-7.242" ;
+		p:longitude		"109.208" ;
+		p:elev		"3432" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:223		p:name		"Socorro" ;
+		p:country		"Mexico" ;
+		p:region		"Mexico-Is" ;
+		p:latitude		"18.78" ;
+		p:longitude		"-110.95" ;
+		p:elev		"1050" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:224		p:name		"Soputan" ;
+		p:country		"Indonesia" ;
+		p:region		"Sulawesi-Indonesia" ;
+		p:latitude		"1.108" ;
+		p:longitude		"124.725" ;
+		p:elev		"1784" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:225		p:name		"Sorikmarapi" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"0.686" ;
+		p:longitude		"99.539" ;
+		p:elev		"2145" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:226		p:name		"Soufriere Guadeloupe" ;
+		p:country		"Guadeloupe" ;
+		p:region		"W Indies" ;
+		p:latitude		"16.05" ;
+		p:longitude		"-61.67" ;
+		p:elev		"1467" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:227		p:name		"Soufriere Hills" ;
+		p:country		"Montserrat" ;
+		p:region		"W Indies" ;
+		p:latitude		"16.72" ;
+		p:longitude		"-62.18" ;
+		p:elev		"915" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:228		p:name		"Soufriere St. Vincent" ;
+		p:country		"St. Vincent & the Grenadines" ;
+		p:region		"W Indies" ;
+		p:latitude		"13.33" ;
+		p:longitude		"-61.18" ;
+		p:elev		"1220" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:229		p:name		"Spurr" ;
+		p:country		"United States" ;
+		p:region		"Alaska-SW" ;
+		p:latitude		"61.3" ;
+		p:longitude		"-152.25" ;
+		p:elev		"3374" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:230		p:name		"St. Helens" ;
+		p:country		"United States" ;
+		p:region		"US-Washington" ;
+		p:latitude		"46.2" ;
+		p:longitude		"-122.18" ;
+		p:elev		"2549" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:231		p:name		"Stromboli" ;
+		p:country		"Italy" ;
+		p:region		"Italy" ;
+		p:latitude		"38.789" ;
+		p:longitude		"15.213" ;
+		p:elev		"926" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:232		p:name		"Sundoro" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-7.3" ;
+		p:longitude		"109.992" ;
+		p:elev		"3136" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:233		p:name		"Supply Reef" ;
+		p:country		"United States" ;
+		p:region		"Mariana Is-C Pacific" ;
+		p:latitude		"20.13" ;
+		p:longitude		"145.1" ;
+		p:elev		"-8" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Hydrophonic" ;
+		p:last		"D1" ;
+		.
+d:234		p:name		"Suretamatai" ;
+		p:country		"Vanuatu" ;
+		p:region		"Vanuatu-SW Pacific" ;
+		p:latitude		"-13.8" ;
+		p:longitude		"167.47" ;
+		p:elev		"921" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:235		p:name		"Suwanose-jima" ;
+		p:country		"Japan" ;
+		p:region		"Ryukyu Is" ;
+		p:latitude		"29.53" ;
+		p:longitude		"129.72" ;
+		p:elev		"799" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:236		p:name		"Taal" ;
+		p:country		"Philippines" ;
+		p:region		"Luzon-Philippines" ;
+		p:latitude		"14.002" ;
+		p:longitude		"120.993" ;
+		p:elev		"400" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:237		p:name		"Tacana" ;
+		p:country		"Mexico" ;
+		p:region		"Mexico" ;
+		p:latitude		"15.13" ;
+		p:longitude		"-92.112" ;
+		p:elev		"4110" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:238		p:name		"Talang" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"-0.978" ;
+		p:longitude		"100.679" ;
+		p:elev		"2597" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:239		p:name		"Tambora" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.25" ;
+		p:longitude		"118" ;
+		p:elev		"2850" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:240		p:name		"Tangkubanparahu" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-6.77" ;
+		p:longitude		"107.6" ;
+		p:elev		"2084" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:241		p:name		"Telica" ;
+		p:country		"Nicaragua" ;
+		p:region		"Nicaragua" ;
+		p:latitude		"12.602" ;
+		p:longitude		"-86.845" ;
+		p:elev		"1061" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:242		p:name		"Tengger Caldera" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-7.942" ;
+		p:longitude		"112.95" ;
+		p:elev		"2329" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:243		p:name		"Terceira" ;
+		p:country		"Portugal" ;
+		p:region		"Azores" ;
+		p:latitude		"38.73" ;
+		p:longitude		"-27.32" ;
+		p:elev		"1023" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:244		p:name		"Thule Islands" ;
+		p:country		"Antarctica" ;
+		p:region		"Antarctica" ;
+		p:latitude		"-59.45" ;
+		p:longitude		"-27.37" ;
+		p:elev		"1075" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:245		p:name		"Tiatia" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"44.358" ;
+		p:longitude		"146.27" ;
+		p:elev		"1819" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:246		p:name		"Tinakula" ;
+		p:country		"Solomon Is." ;
+		p:region		"Santa Cruz Is-SW Pac" ;
+		p:latitude		"-10.38" ;
+		p:longitude		"165.8" ;
+		p:elev		"851" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:247		p:name		"Tokachi" ;
+		p:country		"Japan" ;
+		p:region		"Hokkaido-Japan" ;
+		p:latitude		"43.42" ;
+		p:longitude		"142.68" ;
+		p:elev		"2077" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:248		p:name		"Tolbachik" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"55.83" ;
+		p:longitude		"160.33" ;
+		p:elev		"3682" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:249		p:name		"Tongariro" ;
+		p:country		"New Zealand" ;
+		p:region		"New Zealand" ;
+		p:latitude		"-39.13" ;
+		p:longitude		"175.642" ;
+		p:elev		"1978" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:250		p:name		"Tori-shima" ;
+		p:country		"Japan" ;
+		p:region		"Izu Is-Japan" ;
+		p:latitude		"30.48" ;
+		p:longitude		"140.32" ;
+		p:elev		"403" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:251		p:name		"Trident" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"58.23" ;
+		p:longitude		"-155.08" ;
+		p:elev		"1864" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:252		p:name		"Tungurahua" ;
+		p:country		"Ecuador" ;
+		p:region		"Ecuador" ;
+		p:latitude		"-1.467" ;
+		p:longitude		"-78.442" ;
+		p:elev		"5023" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:253		p:name		"Tupungatito" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-33.4" ;
+		p:longitude		"-69.8" ;
+		p:elev		"6000" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:254		p:name		"Ubinas" ;
+		p:country		"Peru" ;
+		p:region		"Peru" ;
+		p:latitude		"-16.355" ;
+		p:longitude		"-70.903" ;
+		p:elev		"5672" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:255		p:name		"Ukinrek Maars" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"57.83" ;
+		p:longitude		"-156.52" ;
+		p:elev		"91" ;
+		p:type		"Maar" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:256		p:name		"Ulawun" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Britain-SW Pac" ;
+		p:latitude		"-5.05" ;
+		p:longitude		"151.33" ;
+		p:elev		"2334" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:257		p:name		"Unnamed" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"46.47" ;
+		p:longitude		"151.28" ;
+		p:elev		"-502" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Hydrophonic" ;
+		p:last		"D1" ;
+		.
+d:258		p:name		"Unnamed" ;
+		p:country		"United States" ;
+		p:region		"Admiralty Is-SW Paci" ;
+		p:latitude		"-3.03" ;
+		p:longitude		"147.78" ;
+		p:elev		"-1300" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Hydrophonic" ;
+		p:last		"D1" ;
+		.
+d:259		p:name		"Unnamed" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-20.85" ;
+		p:longitude		"-175.53" ;
+		p:elev		"-13" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:260		p:name		"Unnamed" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Pacific-E" ;
+		p:latitude		"9.82" ;
+		p:longitude		"-104.3" ;
+		p:elev		"-2500" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:261		p:name		"Unnamed" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"SW Pacific" ;
+		p:latitude		"-25.78" ;
+		p:longitude		"168.63" ;
+		p:elev		"-2400" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Hydrophonic" ;
+		p:last		"D1" ;
+		.
+d:262		p:name		"Unnamed" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Pacific-E" ;
+		p:latitude		"-17.436" ;
+		p:longitude		"-113.206" ;
+		p:elev		"-2566" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:263		p:name		"Unnamed" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52" ;
+		p:longitude		"-173.5" ;
+		p:elev		"0" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Hydrophonic" ;
+		p:last		"D1" ;
+		.
+d:264		p:name		"Unzen" ;
+		p:country		"Japan" ;
+		p:region		"Kyushu-Japan" ;
+		p:latitude		"32.75" ;
+		p:longitude		"130.3" ;
+		p:elev		"1500" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:265		p:name		"Usu" ;
+		p:country		"Japan" ;
+		p:region		"Hokkaido-Japan" ;
+		p:latitude		"42.53" ;
+		p:longitude		"140.83" ;
+		p:elev		"731" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:266		p:name		"Veniaminof" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"56.17" ;
+		p:longitude		"-159.38" ;
+		p:elev		"2507" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:267		p:name		"Vestmannaeyjar" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-S" ;
+		p:latitude		"63.43" ;
+		p:longitude		"-20.28" ;
+		p:elev		"279" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:268		p:name		"Viedma, Volcan" ;
+		p:country		"Argentina" ;
+		p:region		"Argentina" ;
+		p:latitude		"-49.358" ;
+		p:longitude		"-73.28" ;
+		p:elev		"1300" ;
+		p:type		"Subglacial volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:269		p:name		"Villarrica" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-39.42" ;
+		p:longitude		"-71.93" ;
+		p:elev		"2847" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:270		p:name		"Westdahl" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"54.52" ;
+		p:longitude		"-164.65" ;
+		p:elev		"1654" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:271		p:name		"White Island" ;
+		p:country		"New Zealand" ;
+		p:region		"New Zealand" ;
+		p:latitude		"-37.52" ;
+		p:longitude		"177.18" ;
+		p:elev		"321" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:272		p:name		"Wolf, Volcan" ;
+		p:country		"Ecuador" ;
+		p:region		"Galapagos" ;
+		p:latitude		"0.02" ;
+		p:longitude		"-91.35" ;
+		p:elev		"1710" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:273		p:name		"Yake-dake" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"36.22" ;
+		p:longitude		"137.58" ;
+		p:elev		"2455" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:274		p:name		"Yasur" ;
+		p:country		"Vanuatu" ;
+		p:region		"Vanuatu-SW Pacific" ;
+		p:latitude		"-19.52" ;
+		p:longitude		"169.425" ;
+		p:elev		"361" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:275		p:name		"Zheltovsky" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"51.57" ;
+		p:longitude		"157.323" ;
+		p:elev		"1953" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D1" ;
+		.
+d:276		p:name		"Agrigan" ;
+		p:country		"United States" ;
+		p:region		"Mariana Is-C Pacific" ;
+		p:latitude		"18.77" ;
+		p:longitude		"145.67" ;
+		p:elev		"965" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:277		p:name		"Alayta" ;
+		p:country		"Ethiopia" ;
+		p:region		"Africa-NE" ;
+		p:latitude		"12.88" ;
+		p:longitude		"40.57" ;
+		p:elev		"1501" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:278		p:name		"Aniakchak" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"56.88" ;
+		p:longitude		"-158.17" ;
+		p:elev		"1341" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:279		p:name		"Arjuno-Welirang" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-7.725" ;
+		p:longitude		"112.58" ;
+		p:elev		"3339" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:280		p:name		"Askja" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-NE" ;
+		p:latitude		"65.03" ;
+		p:longitude		"-16.75" ;
+		p:elev		"1516" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:281		p:name		"Asuncion" ;
+		p:country		"United States" ;
+		p:region		"Mariana Is-C Pacific" ;
+		p:latitude		"19.67" ;
+		p:longitude		"145.4" ;
+		p:elev		"857" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:282		p:name		"Atsonupuri" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"44.804" ;
+		p:longitude		"147.13" ;
+		p:elev		"1205" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:283		p:name		"Babuyan Claro" ;
+		p:country		"Philippines" ;
+		p:region		"Luzon-N of" ;
+		p:latitude		"19.523" ;
+		p:longitude		"121.94" ;
+		p:elev		"1180" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:284		p:name		"Bam" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Guinea-NE of" ;
+		p:latitude		"-3.6" ;
+		p:longitude		"144.85" ;
+		p:elev		"685" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:285		p:name		"Banua Wuhu" ;
+		p:country		"Indonesia" ;
+		p:region		"Sangihe Is-Indonesia" ;
+		p:latitude		"3.138" ;
+		p:longitude		"125.491" ;
+		p:elev		"-5" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:286		p:name		"Baransky" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"45.1" ;
+		p:longitude		"148.02" ;
+		p:elev		"1132" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:287		p:name		"Barcena" ;
+		p:country		"Mexico" ;
+		p:region		"Mexico-Is" ;
+		p:latitude		"19.3" ;
+		p:longitude		"-110.82" ;
+		p:elev		"332" ;
+		p:type		"Cinder cone" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:288		p:name		"Bardarbunga" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-NE" ;
+		p:latitude		"64.63" ;
+		p:longitude		"-17.53" ;
+		p:elev		"2000" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:289		p:name		"Barrier, The" ;
+		p:country		"Kenya" ;
+		p:region		"Africa-E" ;
+		p:latitude		"2.32" ;
+		p:longitude		"36.57" ;
+		p:elev		"1032" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:290		p:name		"Besar" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"-4.43" ;
+		p:longitude		"103.67" ;
+		p:elev		"1899" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:291		p:name		"Biliran" ;
+		p:country		"Philippines" ;
+		p:region		"Philippines-C" ;
+		p:latitude		"11.523" ;
+		p:longitude		"124.534" ;
+		p:elev		"1187" ;
+		p:type		"Compound volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:292		p:name		"Bristol Island" ;
+		p:country		"Antarctica" ;
+		p:region		"Antarctica" ;
+		p:latitude		"-59.03" ;
+		p:longitude		"-26.58" ;
+		p:elev		"1100" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:293		p:name		"Burney, Monte" ;
+		p:country		"Chile" ;
+		p:region		"Chile-S" ;
+		p:latitude		"-52.33" ;
+		p:longitude		"-73.4" ;
+		p:elev		"1758" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:294		p:name		"Calbuco" ;
+		p:country		"Chile" ;
+		p:region		"Chile-S" ;
+		p:latitude		"-41.326" ;
+		p:longitude		"-72.614" ;
+		p:elev		"2003" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:295		p:name		"Candlemas Island" ;
+		p:country		"Antarctica" ;
+		p:region		"Antarctica" ;
+		p:latitude		"-57.08" ;
+		p:longitude		"-26.67" ;
+		p:elev		"550" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:296		p:name		"Cendres, Ile des" ;
+		p:country		"Vietnam" ;
+		p:region		"SE Asia" ;
+		p:latitude		"10.158" ;
+		p:longitude		"109.014" ;
+		p:elev		"-20" ;
+		p:type		"Submarine volcanoes" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:297		p:name		"Cereme" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-6.892" ;
+		p:longitude		"108.4" ;
+		p:elev		"3078" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:298		p:name		"Cordon Caulle" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-40.52" ;
+		p:longitude		"-72.2" ;
+		p:elev		"1798" ;
+		p:type		"Fissure vent" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:299		p:name		"Cotopaxi" ;
+		p:country		"Ecuador" ;
+		p:region		"Ecuador" ;
+		p:latitude		"-0.677" ;
+		p:longitude		"-78.436" ;
+		p:elev		"5911" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:300		p:name		"Cumbal" ;
+		p:country		"Colombia" ;
+		p:region		"Colombia" ;
+		p:latitude		"0.98" ;
+		p:longitude		"-77.88" ;
+		p:elev		"4764" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:301		p:name		"Dallol" ;
+		p:country		"Ethiopia" ;
+		p:region		"Africa-NE" ;
+		p:latitude		"14.242" ;
+		p:longitude		"40.3" ;
+		p:elev		"-48" ;
+		p:type		"Explosion crater" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:302		p:name		"Descabezado Grande" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-35.58" ;
+		p:longitude		"-70.75" ;
+		p:elev		"3953" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:303		p:name		"Dhamar, Harras of" ;
+		p:country		"Yemen" ;
+		p:region		"Arabia-S" ;
+		p:latitude		"14.57" ;
+		p:longitude		"44.67" ;
+		p:elev		"3500" ;
+		p:type		"Volcanic field" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:304		p:name		"Dona Juana" ;
+		p:country		"Colombia" ;
+		p:region		"Colombia" ;
+		p:latitude		"1.47" ;
+		p:longitude		"-76.92" ;
+		p:elev		"4150" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:305		p:name		"Egon" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.67" ;
+		p:longitude		"122.45" ;
+		p:elev		"1703" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:306		p:name		"Emuruangogolak" ;
+		p:country		"Kenya" ;
+		p:region		"Africa-E" ;
+		p:latitude		"1.5" ;
+		p:longitude		"36.33" ;
+		p:elev		"1328" ;
+		p:type		"Shield volcano" ;
+		p:status		"Radiocarbon" ;
+		p:last		"D2" ;
+		.
+d:307		p:name		"Esjufjoll" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-SE" ;
+		p:latitude		"64.27" ;
+		p:longitude		"-16.65" ;
+		p:elev		"1760" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:308		p:name		"Falcon Island" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-20.32" ;
+		p:longitude		"-175.42" ;
+		p:elev		"-17" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:309		p:name		"Fayal" ;
+		p:country		"Portugal" ;
+		p:region		"Azores" ;
+		p:latitude		"38.6" ;
+		p:longitude		"-28.73" ;
+		p:elev		"1043" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:310		p:name		"Fonualei" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-18.02" ;
+		p:longitude		"-174.325" ;
+		p:elev		"200" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:311		p:name		"Gede" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-6.78" ;
+		p:longitude		"106.98" ;
+		p:elev		"2958" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:312		p:name		"Geureudong" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"4.813" ;
+		p:longitude		"96.82" ;
+		p:elev		"2885" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:313		p:name		"Goriaschaia Sopka" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"46.83" ;
+		p:longitude		"151.75" ;
+		p:elev		"891" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:314		p:name		"Guallatiri" ;
+		p:country		"Chile" ;
+		p:region		"Chile-N" ;
+		p:latitude		"-18.42" ;
+		p:longitude		"-69.17" ;
+		p:elev		"6071" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:315		p:name		"Hibok-Hibok" ;
+		p:country		"Philippines" ;
+		p:region		"Mindanao-Philippines" ;
+		p:latitude		"9.203" ;
+		p:longitude		"124.673" ;
+		p:elev		"1332" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:316		p:name		"Huequi" ;
+		p:country		"Chile" ;
+		p:region		"Chile-S" ;
+		p:latitude		"-42.377" ;
+		p:longitude		"-72.578" ;
+		p:elev		"1318" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:317		p:name		"Hunter Island" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"SW Pacific" ;
+		p:latitude		"-22.4" ;
+		p:longitude		"172.05" ;
+		p:elev		"297" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:318		p:name		"Iliamna" ;
+		p:country		"United States" ;
+		p:region		"Alaska-SW" ;
+		p:latitude		"60.03" ;
+		p:longitude		"-153.08" ;
+		p:elev		"3053" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:319		p:name		"Ilyinsky" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"51.49" ;
+		p:longitude		"157.2" ;
+		p:elev		"1578" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:320		p:name		"Inielika" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.73" ;
+		p:longitude		"120.98" ;
+		p:elev		"1559" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:321		p:name		"Iriomote-jima" ;
+		p:country		"Japan" ;
+		p:region		"Ryukyu Is" ;
+		p:latitude		"24.558" ;
+		p:longitude		"124" ;
+		p:elev		"-200" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:322		p:name		"Isluga" ;
+		p:country		"Chile" ;
+		p:region		"Chile-N" ;
+		p:latitude		"-19.15" ;
+		p:longitude		"-68.83" ;
+		p:elev		"5050" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:323		p:name		"Iwate" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"39.85" ;
+		p:longitude		"141" ;
+		p:elev		"2041" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:324		p:name		"Kaba" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"-3.52" ;
+		p:longitude		"102.62" ;
+		p:elev		"1952" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:325		p:name		"Kagamil" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52.97" ;
+		p:longitude		"-169.72" ;
+		p:elev		"893" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:326		p:name		"Karpinsky Group" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"50.13" ;
+		p:longitude		"155.37" ;
+		p:elev		"1345" ;
+		p:type		"Cone" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:327		p:name		"Katla" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-S" ;
+		p:latitude		"63.63" ;
+		p:longitude		"-19.05" ;
+		p:elev		"1512" ;
+		p:type		"Subglacial volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:328		p:name		"Katmai" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"58.27" ;
+		p:longitude		"-154.98" ;
+		p:elev		"2047" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:329		p:name		"Ketoi" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"47.35" ;
+		p:longitude		"152.475" ;
+		p:elev		"1172" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:330		p:name		"Kharimkotan" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"49.12" ;
+		p:longitude		"154.508" ;
+		p:elev		"1145" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:331		p:name		"Kiaraberes-Gagak" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-6.73" ;
+		p:longitude		"106.65" ;
+		p:elev		"1511" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:332		p:name		"Kita-Iwo-jima" ;
+		p:country		"Japan" ;
+		p:region		"Volcano Is-Japan" ;
+		p:latitude		"25.43" ;
+		p:longitude		"141.23" ;
+		p:elev		"792" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:333		p:name		"Kizimen" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"55.13" ;
+		p:longitude		"160.32" ;
+		p:elev		"2485" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:334		p:name		"Koryaksky" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"53.32" ;
+		p:longitude		"158.688" ;
+		p:elev		"3456" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:335		p:name		"Kronotsky" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"54.753" ;
+		p:longitude		"160.527" ;
+		p:elev		"3528" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:336		p:name		"Ksudach" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"51.8" ;
+		p:longitude		"157.53" ;
+		p:elev		"1079" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:337		p:name		"Kunlun Volc Group" ;
+		p:country		"China" ;
+		p:region		"China-W" ;
+		p:latitude		"35.52" ;
+		p:longitude		"80.2" ;
+		p:elev		"5808" ;
+		p:type		"Pyroclastic cone" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:338		p:name		"Kurikoma" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"38.95" ;
+		p:longitude		"140.78" ;
+		p:elev		"1628" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:339		p:name		"Lamington" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Guinea" ;
+		p:latitude		"-8.95" ;
+		p:longitude		"148.15" ;
+		p:elev		"1680" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:340		p:name		"Lassen Volc Center" ;
+		p:country		"United States" ;
+		p:region		"US-California" ;
+		p:latitude		"40.492" ;
+		p:longitude		"-121.508" ;
+		p:elev		"3187" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:341		p:name		"Lautaro" ;
+		p:country		"Chile" ;
+		p:region		"Chile-S" ;
+		p:latitude		"-49.02" ;
+		p:longitude		"-73.55" ;
+		p:elev		"3380" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:342		p:name		"Lewotolo" ;
+		p:country		"Indonesia" ;
+		p:region		"Lesser Sunda Is" ;
+		p:latitude		"-8.272" ;
+		p:longitude		"123.505" ;
+		p:elev		"1423" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:343		p:name		"Loki-Fogrufjoll" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-NE" ;
+		p:latitude		"64.48" ;
+		p:longitude		"-17.8" ;
+		p:elev		"1570" ;
+		p:type		"Subglacial volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:344		p:name		"Lolobau" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Britain-SW Pac" ;
+		p:latitude		"-4.92" ;
+		p:longitude		"151.158" ;
+		p:elev		"858" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:345		p:name		"Mageik" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"58.2" ;
+		p:longitude		"-155.25" ;
+		p:elev		"2165" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:346		p:name		"Maipo" ;
+		p:country		"Argentina" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-34.161" ;
+		p:longitude		"-69.833" ;
+		p:elev		"5264" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:347		p:name		"Maly Semiachik" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"54.13" ;
+		p:longitude		"159.67" ;
+		p:elev		"1560" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:348		p:name		"Manda-Inakir" ;
+		p:country		"Ethiopia" ;
+		p:region		"Africa-NE" ;
+		p:latitude		"12.38" ;
+		p:longitude		"42.2" ;
+		p:elev		"600" ;
+		p:type		"Fissure vent" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:349		p:name		"Martin" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"58.17" ;
+		p:longitude		"-155.35" ;
+		p:elev		"1860" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:350		p:name		"Matthew Island" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"SW Pacific" ;
+		p:latitude		"-22.33" ;
+		p:longitude		"171.32" ;
+		p:elev		"177" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:351		p:name		"Meru" ;
+		p:country		"Tanzania" ;
+		p:region		"Africa-E" ;
+		p:latitude		"-3.25" ;
+		p:longitude		"36.75" ;
+		p:elev		"4565" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:352		p:name		"Michoacan-Guanajuato" ;
+		p:country		"Mexico" ;
+		p:region		"Mexico" ;
+		p:latitude		"19.48" ;
+		p:longitude		"-102.25" ;
+		p:elev		"3860" ;
+		p:type		"Cinder cone" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:353		p:name		"Miravalles" ;
+		p:country		"Costa Rica" ;
+		p:region		"Costa Rica" ;
+		p:latitude		"10.748" ;
+		p:longitude		"-85.153" ;
+		p:elev		"2028" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:354		p:name		"Mocho-Choshuenco" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-39.927" ;
+		p:longitude		"-72.027" ;
+		p:elev		"2422" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:355		p:name		"Momotombo" ;
+		p:country		"Nicaragua" ;
+		p:region		"Nicaragua" ;
+		p:latitude		"12.422" ;
+		p:longitude		"-86.54" ;
+		p:elev		"1297" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:356		p:name		"Monaco Bank" ;
+		p:country		"Portugal" ;
+		p:region		"Azores" ;
+		p:latitude		"37.6" ;
+		p:longitude		"-25.88" ;
+		p:elev		"-197" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:357		p:name		"Mutnovsky" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"52.453" ;
+		p:longitude		"158.195" ;
+		p:elev		"2322" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:358		p:name		"Nakano-shima" ;
+		p:country		"Japan" ;
+		p:region		"Ryukyu Is" ;
+		p:latitude		"29.85" ;
+		p:longitude		"129.87" ;
+		p:elev		"979" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:359		p:name		"Nasu" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"37.12" ;
+		p:longitude		"139.97" ;
+		p:elev		"1917" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:360		p:name		"Negro de Mayasquer, Cerro" ;
+		p:country		"Ecuador" ;
+		p:region		"Colombia" ;
+		p:latitude		"0.828" ;
+		p:longitude		"-77.964" ;
+		p:elev		"4445" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Holocene" ;
+		p:last		"D2" ;
+		.
+d:361		p:name		"Nemo Peak" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"49.57" ;
+		p:longitude		"154.808" ;
+		p:elev		"1018" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:362		p:name		"Novarupta" ;
+		p:country		"United States" ;
+		p:region		"Alaska Peninsula" ;
+		p:latitude		"58.27" ;
+		p:longitude		"-155.16" ;
+		p:elev		"841" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:363		p:name		"Ormus Islands" ;
+		p:country		"Indian Ocean" ;
+		p:region		"Arabia-S" ;
+		p:latitude		"26" ;
+		p:longitude		"57" ;
+		p:elev		"0" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Holocene" ;
+		p:last		"D2" ;
+		.
+d:364		p:name		"Pago" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Britain-SW Pac" ;
+		p:latitude		"-5.58" ;
+		p:longitude		"150.52" ;
+		p:elev		"742" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:365		p:name		"Papandayan" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-7.32" ;
+		p:longitude		"107.73" ;
+		p:elev		"2665" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:366		p:name		"Paricutin Volcanic Field" ;
+		p:country		"Mexico" ;
+		p:region		"Mexico" ;
+		p:latitude		"19.48" ;
+		p:longitude		"-102.25" ;
+		p:elev		"3860" ;
+		p:type		"Cinder cone" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:367		p:name		"Pelee" ;
+		p:country		"Martinique" ;
+		p:region		"W Indies" ;
+		p:latitude		"14.82" ;
+		p:longitude		"-61.17" ;
+		p:elev		"1397" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:368		p:name		"Penguin Island" ;
+		p:country		"Antarctica" ;
+		p:region		"Antarctica" ;
+		p:latitude		"-62.1" ;
+		p:longitude		"-57.93" ;
+		p:elev		"180" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Lichenometry" ;
+		p:last		"D2" ;
+		.
+d:369		p:name		"Pilas, Las" ;
+		p:country		"Nicaragua" ;
+		p:region		"Nicaragua" ;
+		p:latitude		"12.495" ;
+		p:longitude		"-86.688" ;
+		p:elev		"1088" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:370		p:name		"Pinta" ;
+		p:country		"Ecuador" ;
+		p:region		"Galapagos" ;
+		p:latitude		"0.58" ;
+		p:longitude		"-90.75" ;
+		p:elev		"780" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:371		p:name		"Protector Shoal" ;
+		p:country		"Antarctica" ;
+		p:region		"Antarctica" ;
+		p:latitude		"-55.92" ;
+		p:longitude		"-28.08" ;
+		p:elev		"-27" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:372		p:name		"Ragang" ;
+		p:country		"Philippines" ;
+		p:region		"Mindanao-Philippines" ;
+		p:latitude		"7.67" ;
+		p:longitude		"124.5" ;
+		p:elev		"2815" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:373		p:name		"Raikoke" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"48.292" ;
+		p:longitude		"153.25" ;
+		p:elev		"551" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:374		p:name		"Rasshua" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"47.77" ;
+		p:longitude		"153.02" ;
+		p:elev		"956" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:375		p:name		"Ruang" ;
+		p:country		"Indonesia" ;
+		p:region		"Sangihe Is-Indonesia" ;
+		p:latitude		"2.28" ;
+		p:longitude		"125.425" ;
+		p:elev		"725" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:376		p:name		"Salak" ;
+		p:country		"Indonesia" ;
+		p:region		"Java" ;
+		p:latitude		"-6.72" ;
+		p:longitude		"106.73" ;
+		p:elev		"2211" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:377		p:name		"San Jorge" ;
+		p:country		"Portugal" ;
+		p:region		"Azores" ;
+		p:latitude		"38.65" ;
+		p:longitude		"-28.08" ;
+		p:elev		"1053" ;
+		p:type		"Fissure vent" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:378		p:name		"San Jose" ;
+		p:country		"Argentina" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-33.782" ;
+		p:longitude		"-69.897" ;
+		p:elev		"5856" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:379		p:name		"San Marcelino" ;
+		p:country		"El Salvador" ;
+		p:region		"El Salvador" ;
+		p:latitude		"13.853" ;
+		p:longitude		"-89.63" ;
+		p:elev		"2381" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:380		p:name		"San Pedro" ;
+		p:country		"Chile" ;
+		p:region		"Chile-N" ;
+		p:latitude		"-21.88" ;
+		p:longitude		"-68.4" ;
+		p:elev		"6145" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:381		p:name		"San Salvador" ;
+		p:country		"El Salvador" ;
+		p:region		"El Salvador" ;
+		p:latitude		"13.736" ;
+		p:longitude		"-89.286" ;
+		p:elev		"1893" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:382		p:name		"Santa Ana" ;
+		p:country		"El Salvador" ;
+		p:region		"El Salvador" ;
+		p:latitude		"13.853" ;
+		p:longitude		"-89.63" ;
+		p:elev		"2365" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:383		p:name		"Santa Isabel" ;
+		p:country		"Equatorial Guinea" ;
+		p:region		"Africa-W" ;
+		p:latitude		"3.58" ;
+		p:longitude		"8.75" ;
+		p:elev		"2972" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:384		p:name		"Santiago" ;
+		p:country		"Ecuador" ;
+		p:region		"Galapagos" ;
+		p:latitude		"-0.22" ;
+		p:longitude		"-90.77" ;
+		p:elev		"920" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:385		p:name		"Santorini" ;
+		p:country		"Greece" ;
+		p:region		"Greece" ;
+		p:latitude		"36.404" ;
+		p:longitude		"25.396" ;
+		p:elev		"329" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:386		p:name		"Savai'i" ;
+		p:country		"Samoa" ;
+		p:region		"Samoa-SW Pacific" ;
+		p:latitude		"-13.612" ;
+		p:longitude		"-172.525" ;
+		p:elev		"1858" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:387		p:name		"Serua" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Banda Sea" ;
+		p:latitude		"-6.3" ;
+		p:longitude		"130" ;
+		p:elev		"641" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:388		p:name		"Shiretoko-Iwo-zan" ;
+		p:country		"Japan" ;
+		p:region		"Hokkaido-Japan" ;
+		p:latitude		"44.13" ;
+		p:longitude		"145.17" ;
+		p:elev		"1563" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:389		p:name		"Smith Rock" ;
+		p:country		"Japan" ;
+		p:region		"Izu Is-Japan" ;
+		p:latitude		"31.32" ;
+		p:longitude		"140.05" ;
+		p:elev		"136" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:390		p:name		"Smith Volcano" ;
+		p:country		"Philippines" ;
+		p:region		"Luzon-N of" ;
+		p:latitude		"19.523" ;
+		p:longitude		"121.94" ;
+		p:elev		"2090" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:391		p:name		"St. Andrew Strait" ;
+		p:country		"United States" ;
+		p:region		"Admiralty Is-SW Paci" ;
+		p:latitude		"-2.38" ;
+		p:longitude		"147.35" ;
+		p:elev		"270" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:392		p:name		"Sumbing" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"-2.414" ;
+		p:longitude		"101.728" ;
+		p:elev		"2507" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:393		p:name		"Suoh" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"-5.25" ;
+		p:longitude		"104.27" ;
+		p:elev		"1000" ;
+		p:type		"Maar" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:394		p:name		"Tanaga" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"51.88" ;
+		p:longitude		"-178.13" ;
+		p:elev		"1806" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:395		p:name		"Tandikat" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"-0.433" ;
+		p:longitude		"100.317" ;
+		p:elev		"2438" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:396		p:name		"Tao-Rusyr Caldera" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"49.35" ;
+		p:longitude		"154.7" ;
+		p:elev		"1325" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:397		p:name		"Telong, Bur Ni" ;
+		p:country		"Indonesia" ;
+		p:region		"Sumatra" ;
+		p:latitude		"4.77" ;
+		p:longitude		"96.808" ;
+		p:elev		"2624" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:398		p:name		"Tenerife" ;
+		p:country		"Spain" ;
+		p:region		"Canary Is" ;
+		p:latitude		"28.271" ;
+		p:longitude		"-16.641" ;
+		p:elev		"3715" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:399		p:name		"Teon" ;
+		p:country		"Pacific Ocean" ;
+		p:region		"Banda Sea" ;
+		p:latitude		"-6.92" ;
+		p:longitude		"129.125" ;
+		p:elev		"655" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:400		p:name		"Thordarhyrna" ;
+		p:country		"Iceland" ;
+		p:region		"Iceland-S" ;
+		p:latitude		"62.27" ;
+		p:longitude		"-17.6" ;
+		p:elev		"1659" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:401		p:name		"Tinguiririca" ;
+		p:country		"Chile" ;
+		p:region		"Chile-C" ;
+		p:latitude		"-34.814" ;
+		p:longitude		"-70.352" ;
+		p:elev		"4280" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:402		p:name		"Tofua" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-19.75" ;
+		p:longitude		"-175.07" ;
+		p:elev		"512" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:403		p:name		"Tolima" ;
+		p:country		"Colombia" ;
+		p:region		"Colombia" ;
+		p:latitude		"4.67" ;
+		p:longitude		"-75.33" ;
+		p:elev		"5200" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:404		p:name		"Tristan da Cunha" ;
+		p:country		"Atlantic Ocean" ;
+		p:region		"Atlantic-S" ;
+		p:latitude		"-37.092" ;
+		p:longitude		"-12.28" ;
+		p:elev		"2060" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:405		p:name		"Tullu Moje" ;
+		p:country		"Ethiopia" ;
+		p:region		"Africa-NE" ;
+		p:latitude		"8.158" ;
+		p:longitude		"39.13" ;
+		p:elev		"2349" ;
+		p:type		"Pumice cone" ;
+		p:status		"Anthropology" ;
+		p:last		"D2" ;
+		.
+d:406		p:name		"Tutupaca" ;
+		p:country		"Peru" ;
+		p:region		"Peru" ;
+		p:latitude		"-17.025" ;
+		p:longitude		"-70.358" ;
+		p:elev		"5815" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:407		p:name		"Unnamed" ;
+		p:country		"Arctic Ocean" ;
+		p:region		"Arctic Ocean" ;
+		p:latitude		"88.27" ;
+		p:longitude		"-65.6" ;
+		p:elev		"-1500" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:408		p:name		"Unnamed" ;
+		p:country		"United States" ;
+		p:region		"Hawaiian Is" ;
+		p:latitude		"23.58" ;
+		p:longitude		"-163.83" ;
+		p:elev		"-4000" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:409		p:name		"Unnamed" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-21.38" ;
+		p:longitude		"-175.65" ;
+		p:elev		"-500" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:410		p:name		"Unnamed" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"48.08" ;
+		p:longitude		"153.33" ;
+		p:elev		"-150" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:411		p:name		"Unnamed" ;
+		p:country		"Tonga" ;
+		p:region		"Tonga-SW Pacific" ;
+		p:latitude		"-21.07" ;
+		p:longitude		"-175.33" ;
+		p:elev		"0" ;
+		p:type		"Not Volcanic" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:412		p:name		"Vesuvius" ;
+		p:country		"Italy" ;
+		p:region		"Italy" ;
+		p:latitude		"40.821" ;
+		p:longitude		"14.426" ;
+		p:elev		"1281" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:413		p:name		"Victory" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Guinea" ;
+		p:latitude		"-9.2" ;
+		p:longitude		"149.07" ;
+		p:elev		"1925" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:414		p:name		"Visoke" ;
+		p:country		"Rwanda" ;
+		p:region		"Africa-C" ;
+		p:latitude		"-1.47" ;
+		p:longitude		"29.492" ;
+		p:elev		"3711" ;
+		p:type		"Stratovolcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:415		p:name		"Waiowa" ;
+		p:country		"Papua New Guinea" ;
+		p:region		"New Guinea" ;
+		p:latitude		"-9.57" ;
+		p:longitude		"149.075" ;
+		p:elev		"640" ;
+		p:type		"Pyroclastic cone" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:416		p:name		"Wrangell" ;
+		p:country		"United States" ;
+		p:region		"Alaska-E" ;
+		p:latitude		"62" ;
+		p:longitude		"-144.02" ;
+		p:elev		"4317" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:417		p:name		"Yunaska" ;
+		p:country		"United States" ;
+		p:region		"Aleutian Is" ;
+		p:latitude		"52.63" ;
+		p:longitude		"-170.63" ;
+		p:elev		"550" ;
+		p:type		"Shield volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:418		p:name		"Zao" ;
+		p:country		"Japan" ;
+		p:region		"Honshu-Japan" ;
+		p:latitude		"38.15" ;
+		p:longitude		"140.45" ;
+		p:elev		"1841" ;
+		p:type		"Complex volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:419		p:name		"Zavaritzki Caldera" ;
+		p:country		"Russia" ;
+		p:region		"Kuril Is" ;
+		p:latitude		"46.925" ;
+		p:longitude		"151.95" ;
+		p:elev		"624" ;
+		p:type		"Caldera" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:420		p:name		"Zengyu" ;
+		p:country		"Taiwan" ;
+		p:region		"Taiwan-N of" ;
+		p:latitude		"26.18" ;
+		p:longitude		"122.458" ;
+		p:elev		"-418" ;
+		p:type		"Submarine volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
+d:421		p:name		"Zhupanovsky" ;
+		p:country		"Russia" ;
+		p:region		"Kamchatka" ;
+		p:latitude		"53.59" ;
+		p:longitude		"159.147" ;
+		p:elev		"2958" ;
+		p:type		"Compound volcano" ;
+		p:status		"Historical" ;
+		p:last		"D2" ;
+		.
