@@ -1,7 +1,6 @@
 *.pdf
 triplificator_env/
 .DS_Store
-.sqlite3
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
