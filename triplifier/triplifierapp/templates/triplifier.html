@@ -25,8 +25,13 @@
         {% for csvFile in csvFiles %}
         <li>
             <div class="csvFileTitle">{{ csvFile.csvFileName }}
-            {% load static %}
-            <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a></div>
+                {% load static %}
+                <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
+                <form method="POST" action="{% url 'delete_csv_file' csvFile.csvFileName %}">
+                    {% csrf_token %}
+                    <button type="submit" class="deleteButton">X</button>
+                </form>
+            </div>
         </li>
         {% endfor %}
     </ul>
@@ -57,7 +62,12 @@
         <li>
             <div class="ttlFileTitle">{{ ttlFile.ttlFileName }}
                 {% load static %}
-                <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a></div>
+                <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
+                <form method="POST" action="{% url 'delete_ttl_file' ttlFile.ttlFileName %}">
+                    {% csrf_token %}
+                    <button type="submit" class="deleteButton">X</button>
+                </form>
+            </div>
         </li>
         {% endfor %}
     </ul>

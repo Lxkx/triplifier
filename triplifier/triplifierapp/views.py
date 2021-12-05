@@ -83,3 +83,18 @@ def exportTTL(request, filename):
     response = HttpResponse(content, content_type='application/force-download')
     response['Content-Disposition'] = 'attachment; filename={0}'.format(filename)+".ttl"
     return response
+
+
+def delete_csv_file(request, csvName):
+    if request.method == "POST":
+        csvFile = csvModel.objects.get(csvFileName=csvName)
+        os.remove("tpData/csv/"+str(csvFile.csvFileName)+".csv") #so we delete this file
+        csvFile.delete()
+    return redirect('/')
+
+def delete_ttl_file(request, ttlName):
+    if request.method == "POST":
+        ttlFile = ttlModel.objects.get(ttlFileName=ttlName)
+        os.remove("tpData/ttl/"+str(ttlFile.ttlFileName)+".ttl") #so we delete this file
+        ttlFile.delete()
+    return redirect('/')
