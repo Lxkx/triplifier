@@ -1,29 +1,69 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-{% load crispy_forms_tags %}
-<form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    {{ form|crispy }}
-    <button type="submit" name="uploadBut" class="button">Upload CSV</button>
-</form>
+
+    {% load crispy_forms_tags %}
+    <form method="post" enctype="multipart/form-data"  class="form_file">
+        {% csrf_token %}
+        {{ form|crispy }}
+        
+        <button type="submit" name="uploadBut" class="button">Upload CSV</button>
+        
+    </form>
+
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
 {% endblock %}
+
 
 {% block csvlist %}
 
-{% if csvFiles %}
-    <ul>
-        {% for csvFile in csvFiles %}
-        <li>
-            <div class="csvFileTitle">{{ csvFile.csvFileName }}
-            {% load static %}
-            <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a></div>
-        </li>
-        {% endfor %}
-    </ul>
-{% else %}
-    <p>There are no csv files.</p>
-{% endif %} 
+    <div class="csv_liste">
+    {% if csvFiles %}
+       <!-- <ul>-->
+            {% for csvFile in csvFiles %}
+           <!-- <li>-->
+            <div class="csvFileTitle">
+                 {% load static %}
+                 <div>
+                    <!-- Trigger/Open The Modal -->
+                    <button class="myBtn" data-toggle="modal" data-target="#modal{{csvFile.csvFileName}}csv"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
+                    <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
+
+                    <!-- The Modal -->
+                    <div id="modal{{csvFile.csvFileName}}csv" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal_title" id="modalSolutionLabel">{{csvFile.csvFileName}}.csv</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="fileContent">
+                                        {{csvFile.content | safe}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div >{{ csvFile.csvFileName }}.csv</div>
+            </div>
+            <!--</li>-->
+            {% endfor %}
+        <!--</ul>-->
+    {% else %}
+        <p>There are no csv files.</p>
+    {% endif %} 
+    </div>
 
 {% endblock %}
 
@@ -31,29 +71,57 @@
 
 {% block convert %}
 
-<form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    {{ formConvert|crispy }}
-    <button type="submit" name="convertBut" class="button">Convert CSV -> TTL</button>
-</form>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ formConvert|crispy }}
+
+        <div class="divbutton">
+        <button type="submit" name="convertBut" class="button">Convert CSV to TTL</button>
+        </div>
+    </form>
 
 {% endblock %}
 
 
 {% block turtle %}
+    <div class="ttl_liste">
+        {% if ttlFiles %}
+            <!--<ul>-->
+                {% for ttlFile in ttlFiles %}
+                <!--<li>-->
+                    <div class="ttlFileTitle">
+                        {% load static %}
+                        <div class="file_img">
+                            <button class="myBtn" data-toggle="modal" data-target="#modal{{ttlFile.ttlFileName}}ttl"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
+                    <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
 
-{% if ttlFiles %}
-    <ul>
-        {% for ttlFile in ttlFiles %}
-        <li>
-            <div class="ttlFileTitle">{{ ttlFile.ttlFileName }}
-                {% load static %}
-                <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a></div>
-        </li>
-        {% endfor %}
-    </ul>
-{% else %}
-    <p>There are no ttl files.</p>
-{% endif %} 
+                    <!-- The Modal -->
+                    <div id="modal{{ttlFile.ttlFileName}}ttl" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal_title" id="modalSolutionLabel">{{ttlFile.ttlFileName}}.ttl</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="fileContent">
+                                        {{ttlFile.content | safe}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                       
+                        </div>
+                        <div>{{ ttlFile.ttlFileName }}.ttl</div>
+                    </div>
+                <!--</li>-->
+                {% endfor %}
+            <!--</ul>-->
+        {% else %}
+            <p>There are no ttl files.</p>
+        {% endif %} 
+    </div>
 
 {% endblock %}
