@@ -26,17 +26,14 @@ class convertForm(forms.Form):
                     ('select2','No, without titles')]
     title = forms.ChoiceField(choices=choicesTitle, widget=forms.RadioSelect, label="Does your file have a title row ?")
 
-    titleRow = forms.IntegerField(min_value=0, required=False, label="Title row number"
-    , widget=forms.NumberInput(attrs={"placeholder":"First row"}))
-    firstDataRow = forms.IntegerField(min_value=0, required=False, label="First data row number"
-    , widget=forms.NumberInput(attrs={"placeholder":"First valid row after titles"}))
-    lastDataRow = forms.IntegerField(min_value=0, required=False, label="Last data row number"
-    , widget=forms.NumberInput(attrs={"placeholder":"Last valid row"}))
+    titleRow = forms.IntegerField(min_value=0, required=False, label="Title row number")
+    firstDataRow = forms.IntegerField(min_value=0, required=False, label="First data row number")
+    lastDataRow = forms.IntegerField(min_value=0, required=False, label="Last data row number")
     separator = forms.CharField(max_length=1, required=False, label="Separator")
     prefixData = forms.CharField(max_length=100, required=False, label="Data prefix")
     predicatData = forms.CharField(max_length=100, required=False, label="Predicat prefix")
 
-    newFileName = forms.CharField(max_length=30, label="TTL file name", required=False)
+    newFileName = forms.CharField(max_length=30, label="TTL file name")
 
     def clean(self):
         cleaned_data = super().clean()
@@ -45,9 +42,9 @@ class convertForm(forms.Form):
         titleRow = self.cleaned_data.get("titleRow")
         firstDataRow = self.cleaned_data.get("firstDataRow")
         lastDataRow = self.cleaned_data.get("lastDataRow")
-        print(title)
-        if (title==False and titleRow!=None):
-            raise forms.ValidationError("There cannot be a title row if there are no titles")
+        
+        if (title=="select2" and titleRow!=None):
+            raise forms.ValidationError("No title row needed")
         
         if ( (titleRow!=None and firstDataRow!=None) and titleRow > firstDataRow):
             raise forms.ValidationError("Title Row should be < to First Row")
@@ -60,13 +57,6 @@ class convertForm(forms.Form):
 
     def clean_fileToConvert(self):
         return self.cleaned_data.get("fileToConvert")
-    
-    def clean_title(self):
-        title = self.cleaned_data.get("title")
-        if (title == "select1"):
-            return True
-        else:
-            return False
 
     #best way to handle the form
     def clean_separator(self): #when empty in form, here not None
@@ -82,14 +72,10 @@ class convertForm(forms.Form):
 
     def clean_prefixData(self):
         prefixData = self.cleaned_data.get("prefixData")
-        if (prefixData != ""):
+        if (prefixData!=""):
             X = re.search(r'^[a-zA-Z]*: ', prefixData)
             if (X==None):
                 raise forms.ValidationError("Data prefix invalid")
-            else:
-                return prefixData
-        else:
-            return None
 
     def clean_predicatData(self):
         predicatData = self.cleaned_data.get("predicatData")
@@ -97,31 +83,16 @@ class convertForm(forms.Form):
             X = re.search(r'^[a-zA-Z]*: ', predicatData)
             if (X==None):
                 raise forms.ValidationError("Predicat prefix invalid")
-            else:
-                return predicatData
-        else:
-            return None
 
     def clean_newFileName(self):
         newFileName = self.cleaned_data.get("newFileName")
-        
-        if (newFileName!=""):
-            if (newFileName in list(ttlModel.objects.all().values_list('ttlFileName',flat=True))):
-                raise forms.ValidationError("TTL name already exists !")
-            return newFileName
-        else:
-            newFileName = str(self.cleaned_data.get("fileToConvert"))
-            if (newFileName in list(ttlModel.objects.all().values_list('ttlFileName',flat=True))):
-                raise forms.ValidationError("TTL name already exists !")
-            return newFileName
+        if (newFileName!=None):
+            X = re.search(r'^[a-zA-Z0-9]', newFileName)
+            if (X==None):
+                raise forms.ValidationError("Put a simple name")
 
 
 
     def __init__(self, *args, **kwargs):
         super(convertForm, self).__init__(*args, **kwargs)
         self.initial['title'] = 'select1'
-
-        self.fields['title'].widget.attrs['placeholder'] = '0'
-        self.fields['separator'].widget.attrs['placeholder'] = ','
-        self.fields['prefixData'].widget.attrs['placeholder'] = 'd: <http://ex.org/data/>'
-        self.fields['predicatData'].widget.attrs['placeholder'] = 'p: <http://ex.org/pred#>'
