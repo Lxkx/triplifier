@@ -64,6 +64,24 @@
         <p>There are no csv files.</p>
     {% endif %} 
     </div>
+{% if csvFiles %}
+    <ul>
+        {% for csvFile in csvFiles %}
+        <li>
+            <div class="csvFileTitle">{{ csvFile.csvFileName }}
+                {% load static %}
+                <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
+                <form method="POST" action="{% url 'delete_csv_file' csvFile.csvFileName %}">
+                    {% csrf_token %}
+                    <button type="submit" class="deleteButton">X</button>
+                </form>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>There are no csv files.</p>
+{% endif %} 
 
 {% endblock %}
 
@@ -123,5 +141,23 @@
             <p>There are no ttl files.</p>
         {% endif %} 
     </div>
+{% if ttlFiles %}
+    <ul>
+        {% for ttlFile in ttlFiles %}
+        <li>
+            <div class="ttlFileTitle">{{ ttlFile.ttlFileName }}
+                {% load static %}
+                <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
+                <form method="POST" action="{% url 'delete_ttl_file' ttlFile.ttlFileName %}">
+                    {% csrf_token %}
+                    <button type="submit" class="deleteButton">X</button>
+                </form>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>There are no ttl files.</p>
+{% endif %} 
 
 {% endblock %}

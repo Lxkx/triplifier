@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from os import name
 from django.contrib import admin
 from django.urls import path, include, re_path
 from django.views.generic import RedirectView
@@ -25,6 +26,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('triplifier/', include('triplifierapp.urls')),
     path('', RedirectView.as_view(url='triplifier/', permanent=True)),
+    path('delete_csv_file/<str:csvName>', views.delete_csv_file, name="delete_csv_file"),
+    path('delete_ttl_file/<str:ttlName>', views.delete_ttl_file, name="delete_ttl_file"),
     path('tpData/csv/<str:filename>', views.exportCSV),
     path('<str:filename>.ttl', views.exportTTL),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
