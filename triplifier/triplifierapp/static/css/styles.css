@@ -1,26 +1,101 @@
-body {
+/*body {
     margin: 0;
     background-color: #5785ac;
     font-family: "Gill Sans", sans-serif;
     color: white;
 }
-
+*/
 html,body{min-height:100%;}
 
 .title {
-    padding-top: 2em;
-    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 2.7em;
     text-align: center;
+    color : white;
+    font-weight: bold;
     height: 2em;
-    font-size: 1.5em;
+    font-size: 1.7em;
+    background-color: #5785ac;
+    margin-bottom: 2em;
+
 }
+
+.subtitle{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2em;
+    font-weight: bold;
+    color: #5785ac;
+}
+
+
 
 .content {
-    display: flex;
-    justify-content: space-around;
+    /*display: flex;
+    justify-content: space-around;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
+    grid-gap: 2em;
+    margin-right: 3em;
+    margin-left: 3em;
+    margin-bottom: 3em;
 }
 
+.div1 {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #5785ac;
+    padding: 1em;
+}
+
+.div2 {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #5785ac;
+    padding: 1em;
+}
+
+.div3 {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #5785ac;
+    padding: 1em;
+}
+
+.filelist
+{
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: grey;
+    padding-top: 1em;
+    padding-bottom: :1em;
+    padding : 1em;
+}
+
+.form_file{
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: grey;
+    padding-top: 1em;
+    padding-bottom: :1em;
+    padding : 1em;
+    margin-bottom: 2em;
+}
+
+
+
+
+/*.clearablefileinput button{
+    color: black;
+}
+
+#id_csvFile{
+    color: blue;
+}*/
+
+
+/*
 .div1 {
     border: 5px solid #FBEEC1;
     padding: 20px;
@@ -36,12 +111,42 @@ html,body{min-height:100%;}
     border: 5px solid #FBEEC1;
     padding: 20px;
 }
-
+*/
 .div1Title, .div1Title2, .div2Title, .div3Title {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #5785ac;
 }
+
+.ttl_liste{
+    display: grid;
+     
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: grey;
+    padding-top: 1em;
+    padding-bottom: :1em;
+    padding : 1em;
+
+
+}
+
+.csv_liste{
+    display: grid;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*;
 
 .div1Title2 {
     margin-top: 1em;
@@ -50,13 +155,13 @@ html,body{min-height:100%;}
 .csvFileTitle a, .ttlFileTitle a {
     margin-left: 0.5em;
 }
-
+*/
 .csvFileTitle, .ttlFileTitle {
-    margin-bottom: 1em;
+    margin: 1em;
 }
 
 
-.button {
+/*.button {
     display:inline-block;
     padding:0.3em 1.2em;
     margin:0 0.1em 0.1em 0;
@@ -72,6 +177,19 @@ html,body{min-height:100%;}
     background-color:#FBEEC1;
     margin-top: 1em;
     }
+*/
+
+.divbutton{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    border-radius: 5px;
+    background-color: #5785ac;
+    color : white;
+
+}
 
 .deleteButton {
     display:inline-block;
@@ -88,7 +206,7 @@ html,body{min-height:100%;}
     }
 
 .button:hover{
-    border-color: #04113e;
+    color: #04113e;
     border-radius: 5px;
     background-color: #A5D732;
 }
@@ -105,3 +223,38 @@ html,body{min-height:100%;}
     display:block;
     margin:0.2em auto;
 }}
+
+.form-row.numberinput{
+    width: 50%;
+}
+
+ /*#div_id_separator {
+  display: inline-block;
+  }*/
+
+label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.form-check label{
+    font-weight: normal;
+}
+
+
+
+.modal-header{
+    color: white;
+    background-color: #5785ac
+}
+
+.fileContent{
+    margin: 1em;
+}
+
+
+.myBtn{
+    background-color: white;
+    border : none;
+}
+

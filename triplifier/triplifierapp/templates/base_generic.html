@@ -5,7 +5,10 @@
   <meta charset="utf-8">
   <!-- Add additional CSS in static file -->
   {% load static %}
+  <link rel="icon" href="{% static 'favicon.ico'%}" />
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
 </head>
 <body>
 
@@ -13,15 +16,20 @@
 
     <div class="title">TRIPLIFIER</div>
 
+    <div class="subtitle"> Convert CSV to Turle </div>
+
     <div class="content">
 
       <div class="div1">
         <p class="div1Title">UPLOAD A CSV</p>
         {% block content %}
         {% endblock %}
+        <br/>
         <p class="div1Title2">YOUR CSV FILES</p>
-        {% block csvlist %}
-        {% endblock %}
+        <div  class="filelist">
+          {% block csvlist %}
+          {% endblock %}
+        </div>
       </div>
       
       <div class="div2">
@@ -32,12 +40,22 @@
 
       <div class="div3">
         <p class="div3Title">YOUR TTL FILES</p>
-        {% block turtle %}
-        {% endblock %}
+        <div class="filelist">
+          {% block turtle %}
+          {% endblock %}
+        </div>
       </div>
 
     </div>
     
   </div>
+
+{%block javascripts%}
+<script type="text/javascript" charset="utf8" src="{%static 'js/jquery-3.6.0.min.js'%}"></script>
+
+<script type="text/javascript" charset="utf8" src="{%static 'js/bootstrap.min.js'%}"></script>
+
+{%endblock%}
+
 </body>
 </html>
