@@ -1,30 +1,26 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
+{% load crispy_forms_tags %}
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" name="uploadBut" class="button">Upload CSV</button>
+</form>
 
-    {% load crispy_forms_tags %}
-    <form method="post" enctype="multipart/form-data"  class="form_file">
-        {% csrf_token %}
-        {{ form|crispy }}
-        
-        <button type="submit" name="uploadBut" class="button">Upload CSV</button>
-        
-    </form>
-
-    {% if messages %}
-        <ul class="messages">
-            {% for message in messages %}
-            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
 
 {% endblock %}
 
-
 {% block csvlist %}
 
-    <div class="csv_liste">
+   <div class="csv_liste">
     {% if csvFiles %}
        <!-- <ul>-->
             {% for csvFile in csvFiles %}
@@ -35,10 +31,6 @@
                     <!-- Trigger/Open The Modal -->
                     <button class="myBtn" data-toggle="modal" data-target="#modal{{csvFile.csvFileName}}csv"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
                     <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
-                    <form method="POST" action="{% url 'delete_csv_file' csvFile.csvFileName %}">
-                        {% csrf_token %}
-                        <button type="submit" class="deleteButton">X</button>
-                    </form>
 
                     <!-- The Modal -->
                     <div id="modal{{csvFile.csvFileName}}csv" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -52,7 +44,7 @@
                                     </button>
                                 </div>
                                 <div class="fileContent">
-                                    {{csvFile.content | safe}}
+                                        {{csvFile.content | safe}}
                                 </div>
                             </div>
                         </div>
@@ -75,61 +67,55 @@
 
 {% block convert %}
 
-    <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ formConvert|crispy }}
-
-        <div class="divbutton">
-        <button type="submit" name="convertBut" class="button">Convert CSV to TTL</button>
-        </div>
-    </form>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ formConvert|crispy }}
+    <button type="submit" name="convertBut" class="button">Convert CSV -> TTL</button>
+</form>
 
 {% endblock %}
 
 
 {% block turtle %}
-    <div class="ttl_liste">
+
+ <div class="ttl_liste">
         {% if ttlFiles %}
-            {% for ttlFile in ttlFiles %}
-                <div class="ttlFileTitle">
-                    {% load static %}
-                    <div class="file_img">
-                        <button class="myBtn" data-toggle="modal" data-target="#modal{{ttlFile.ttlFileName}}ttl"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
-                        <form method="POST" action="{% url 'delete_ttl_file' ttlFile.ttlFileName %}">
-                            {% csrf_token %}
-                            <button type="submit" class="deleteButton">X</button>
-                        </form>
-                        <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>                    
-                    </div>
-                    <div>{{ ttlFile.ttlFileName }}.ttl</div>
-                </div>
+            <!--<ul>-->
+                {% for ttlFile in ttlFiles %}
+                <!--<li>-->
+                    <div class="ttlFileTitle">
+                        {% load static %}
+                        <div class="file_img">
+                            <button class="myBtn" data-toggle="modal" data-target="#modal{{ttlFile.ttlFileName}}ttl"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
+                    <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
 
-
-                <!-- The Modal -->
-                <div id="modal{{ttlFile.ttlFileName}}ttl" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                    <!-- Modal content -->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal_title" id="modalSolutionLabel">{{ttlFile.ttlFileName}}.ttl</h4>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="fileContent">
-                                {{ttlFile.content | safe}}
+                    <!-- The Modal -->
+                    <div id="modal{{ttlFile.ttlFileName}}ttl" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal_title" id="modalSolutionLabel">{{ttlFile.ttlFileName}}.ttl</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="fileContent">
+                                        {{ttlFile.content | safe}}
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-            {% endfor %}
-
+                       
+                        </div>
+                        <div>{{ ttlFile.ttlFileName }}.ttl</div>
+                    </div>
+                <!--</li>-->
+                {% endfor %}
+            <!--</ul>-->
         {% else %}
             <p>There are no ttl files.</p>
         {% endif %} 
-    </div>
+    </div> 
 
 {% endblock %}
-
-

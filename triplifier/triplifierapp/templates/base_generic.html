@@ -26,7 +26,7 @@
         {% endblock %}
         <br/>
         <p class="div1Title2">YOUR CSV FILES</p>
-        <div  class="filelist">
+        <div class="filelist">
           {% block csvlist %}
           {% endblock %}
         </div>
@@ -40,10 +40,8 @@
 
       <div class="div3">
         <p class="div3Title">YOUR TTL FILES</p>
-        <div class="filelist">
-          {% block turtle %}
-          {% endblock %}
-        </div>
+        {% block turtle %}
+        {% endblock %}
       </div>
 
     </div>
@@ -51,8 +49,9 @@
   </div>
 
 {%block javascripts%}
-<script type="text/javascript" charset="utf8" src="{%static 'js/jquery-3.6.0.min.js'%}"></script>
-<script type="text/javascript" charset="utf8" src="{%static 'js/bootstrap.min.js'%}"></script>
+    <script type="text/javascript" charset="utf8" src="{%static 'js/jquery-3.6.0.min.js'%}"></script>
+
+    <script type="text/javascript" charset="utf8" src="{%static 'js/bootstrap.min.js'%}"></script>
 
 {%endblock%}
 
