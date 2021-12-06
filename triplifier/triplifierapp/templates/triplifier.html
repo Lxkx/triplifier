@@ -31,7 +31,10 @@
                     <!-- Trigger/Open The Modal -->
                     <button class="myBtn" data-toggle="modal" data-target="#modal{{csvFile.csvFileName}}csv"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
                     <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
-
+                    <form method="POST" action="{% url 'delete_csv_file' csvFile.csvFileName %}">
+                        {% csrf_token %}
+                        <button type="submit" class="deleteButton">X</button>
+                    </form>
                     <!-- The Modal -->
                     <div id="modal{{csvFile.csvFileName}}csv" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
@@ -88,7 +91,10 @@
                         <div class="file_img">
                             <button class="myBtn" data-toggle="modal" data-target="#modal{{ttlFile.ttlFileName}}ttl"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
                     <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
-
+                    <form method="POST" action="{% url 'delete_ttl_file' ttlFile.ttlFileName %}">
+                        {% csrf_token %}
+                        <button type="submit" class="deleteButton">X</button>
+                    </form>
                     <!-- The Modal -->
                     <div id="modal{{ttlFile.ttlFileName}}ttl" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
