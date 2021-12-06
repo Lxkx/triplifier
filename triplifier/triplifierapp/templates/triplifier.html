@@ -35,6 +35,10 @@
                     <!-- Trigger/Open The Modal -->
                     <button class="myBtn" data-toggle="modal" data-target="#modal{{csvFile.csvFileName}}csv"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
                     <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
+                    <form method="POST" action="{% url 'delete_csv_file' csvFile.csvFileName %}">
+                        {% csrf_token %}
+                        <button type="submit" class="deleteButton">X</button>
+                    </form>
 
                     <!-- The Modal -->
                     <div id="modal{{csvFile.csvFileName}}csv" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -48,7 +52,7 @@
                                     </button>
                                 </div>
                                 <div class="fileContent">
-                                        {{csvFile.content | safe}}
+                                    {{csvFile.content | safe}}
                                 </div>
                             </div>
                         </div>
@@ -64,24 +68,6 @@
         <p>There are no csv files.</p>
     {% endif %} 
     </div>
-{% if csvFiles %}
-    <ul>
-        {% for csvFile in csvFiles %}
-        <li>
-            <div class="csvFileTitle">{{ csvFile.csvFileName }}
-                {% load static %}
-                <a href="{{ csvFile.csvFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
-                <form method="POST" action="{% url 'delete_csv_file' csvFile.csvFileName %}">
-                    {% csrf_token %}
-                    <button type="submit" class="deleteButton">X</button>
-                </form>
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
-{% else %}
-    <p>There are no csv files.</p>
-{% endif %} 
 
 {% endblock %}
 
@@ -104,60 +90,46 @@
 {% block turtle %}
     <div class="ttl_liste">
         {% if ttlFiles %}
-            <!--<ul>-->
-                {% for ttlFile in ttlFiles %}
-                <!--<li>-->
-                    <div class="ttlFileTitle">
-                        {% load static %}
-                        <div class="file_img">
-                            <button class="myBtn" data-toggle="modal" data-target="#modal{{ttlFile.ttlFileName}}ttl"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
-                    <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
+            {% for ttlFile in ttlFiles %}
+                <div class="ttlFileTitle">
+                    {% load static %}
+                    <div class="file_img">
+                        <button class="myBtn" data-toggle="modal" data-target="#modal{{ttlFile.ttlFileName}}ttl"><img src="{%static 'ttl_file.png'%}" height="20px"></button>
+                        <form method="POST" action="{% url 'delete_ttl_file' ttlFile.ttlFileName %}">
+                            {% csrf_token %}
+                            <button type="submit" class="deleteButton">X</button>
+                        </form>
+                        <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>                    
+                    </div>
+                    <div>{{ ttlFile.ttlFileName }}.ttl</div>
+                </div>
 
-                    <!-- The Modal -->
-                    <div id="modal{{ttlFile.ttlFileName}}ttl" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                          <!-- Modal content -->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4 class="modal_title" id="modalSolutionLabel">{{ttlFile.ttlFileName}}.ttl</h4>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="fileContent">
-                                        {{ttlFile.content | safe}}
-                                </div>
+
+                <!-- The Modal -->
+                <div id="modal{{ttlFile.ttlFileName}}ttl" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                    <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal_title" id="modalSolutionLabel">{{ttlFile.ttlFileName}}.ttl</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="fileContent">
+                                {{ttlFile.content | safe}}
                             </div>
                         </div>
                     </div>
-                       
-                        </div>
-                        <div>{{ ttlFile.ttlFileName }}.ttl</div>
-                    </div>
-                <!--</li>-->
-                {% endfor %}
-            <!--</ul>-->
+                </div>
+
+            {% endfor %}
+
         {% else %}
             <p>There are no ttl files.</p>
         {% endif %} 
     </div>
-{% if ttlFiles %}
-    <ul>
-        {% for ttlFile in ttlFiles %}
-        <li>
-            <div class="ttlFileTitle">{{ ttlFile.ttlFileName }}
-                {% load static %}
-                <a href="{{ ttlFile.ttlFile.url }}"> <img src="{% static 'download.png' %}" height="20px"></a>
-                <form method="POST" action="{% url 'delete_ttl_file' ttlFile.ttlFileName %}">
-                    {% csrf_token %}
-                    <button type="submit" class="deleteButton">X</button>
-                </form>
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
-{% else %}
-    <p>There are no ttl files.</p>
-{% endif %} 
 
 {% endblock %}
+
+
