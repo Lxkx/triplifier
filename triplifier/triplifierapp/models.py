@@ -25,7 +25,9 @@ class ttlModel(models.Model):
 
     def content(self):
     	text=open("tpData/ttl/"+self.ttlFileName+".ttl", "r").read()
+    	print(type(text))
+    	text = text.replace("<","&lt;" )
+    	text = text.replace(">","&gt")
     	text = text.replace('\n','<br>')
-    	text = text.replace('p:','&emsp;&emsp;&emsp;p:')
-    	text = text.replace('@prefix &emsp;&emsp;&emsp;p:','@prefix :p')
+    	text = text.replace('<br>		p:','<br>&emsp;&emsp;&emsp;p:')
     	return text
