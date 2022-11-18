@@ -1,7 +1,6 @@
 *.pdf
 triplificator_env/
 starting_csv/
-triplifier/tpData/csv/
 
 .DS_Store
 

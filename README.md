@@ -1,24 +1,10 @@
 # Triplifier
 
-TO LAUNCH THE PROJECT
+**Web interface application allowing to convert .csv files into .ttl files**
 
-In your terminal, go inside the Django project folder
-```
-cd triplifier
-```
+### 1. TO SET UP THE PROJECT
 
-Now, enter this command to run the Django server (be sure to have your virtual env activated):
-```
-python manage.py runserver
-```
-Finally, go in your web browser at [localhost port 8000](http://localhost:8000/)
-
-
-
-
-TO SET UP THE PROJECT
-
-ON MAC 
+*1.1.1 ON MAC*
 
 Be sure to have python, you can download the latest version on:
 [Python.org](https://www.python.org/downloads/)
@@ -39,12 +25,33 @@ which pip
 ```
 --> This should show you your new path environment
 
+
+*1.2 Install the dependencies:*
+```
+pip install -r /path/to/requirements.txt
+```
+
+### 2. CLONE THE PROJECT
+
 Clone the project in the same folder as your environment for simplicity:
 ```
 git clone https://github.com/Lxkx/triplifier.git
 ```
 
-Install the dependencies:
+
+
+### 3. TO LAUNCH THE PROJECT
+
+In your terminal, go inside the Django project folder
 ```
-pip install -r /path/to/requirements.txt
+cd triplifier
 ```
+
+Now, enter this command to run the Django server (be sure to have your virtual env activated):
+```
+python manage.py runserver
+```
+Finally, go in your web browser at [localhost port 8000](http://localhost:8000/)
+
+
+
