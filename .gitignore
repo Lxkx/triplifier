@@ -1,8 +1,23 @@
 *.pdf
 triplificator_env/
 starting_csv/
+triplifier/tpData/csv/
+
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+
+
+
+# exclude everything
+triplifier/tpData/csv/*
+# exception to the rule
+!triplifier/tpData/csv/.gitkeep
+
+
+# exclude everything
+triplifier/tpData/ttl/*
+# exception to the rule
+!triplifier/tpData/ttl/.gitkeep
