@@ -1,4 +1,4 @@
-# CsvToTurtle
+# Triplifier
 
 TO LAUNCH THE PROJECT
 
@@ -11,7 +11,7 @@ Now, enter this command to run the Django server (be sure to have your virtual e
 ```
 python manage.py runserver
 ```
-Finally, go in your web browser at [localhost](http://localhost:8000/)
+Finally, go in your web browser at [localhost port 8000](http://localhost:8000/)
 
 
 
@@ -41,7 +41,7 @@ which pip
 
 Clone the project in the same folder as your environment for simplicity:
 ```
-git clone https://github.com/JstLearning/CsvToTurtle.git
+git clone https://github.com/Lxkx/triplifier.git
 ```
 
 Install the dependencies:
